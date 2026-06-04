@@ -13,11 +13,9 @@ from tqdm import tqdm
 from transformers import AutoTokenizer
 
 ROOT = Path(__file__).resolve().parents[1]
-NLA_SRC = ROOT.parent / "nla_rsa_study" / "src"
 sys.path.insert(0, str(ROOT))
-sys.path.insert(0, str(NLA_SRC))
 
-from common import cleanup_mps, get_device, load_causal_lm, model_device, resolve_torch_dtype  # noqa: E402
+from vendor.common import cleanup_mps, get_device, load_causal_lm, model_device, resolve_torch_dtype  # noqa: E402
 
 from src.chat_extract import EVIL_SYSTEM, NEUTRAL_SYSTEM  # noqa: E402
 from src.config_loader import load_config, repo_root  # noqa: E402

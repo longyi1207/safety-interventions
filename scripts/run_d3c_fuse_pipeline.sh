@@ -5,8 +5,8 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
 if [[ -z "${PY:-}" ]]; then
-  if [[ -x "$ROOT/../nla_rsa_study/.venv/bin/python" ]]; then
-    PY="$ROOT/../nla_rsa_study/.venv/bin/python"
+  if [[ -x "$ROOT/python3" ]]; then
+    PY="$ROOT/python3"
   else
     PY="python3"
   fi

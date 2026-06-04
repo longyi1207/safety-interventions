@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Rsync local safety_interventions to the running instance (code not on GitHub yet).
+# Rsync local safety_interventions to the running instance.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 ACTIVE="${JOB_ENV:-$ROOT/cloud/.active/latest.env}"
@@ -22,11 +22,4 @@ rsync -avz -e "ssh ${SSH_OPTS[*]}" \
   --exclude 'prompts/evil_contrast_full.jsonl' \
   "$ROOT/" "${REMOTE}:${REMOTE_DIR}/"
 
-# Shared dependency: safety_interventions imports helper utilities from
-# ../nla_rsa_study/src/common.py (get_device, dtype resolution, chat input helpers).
-NLA_LOCAL="$(cd "$ROOT/.." && pwd)/nla_rsa_study/src/"
-ssh "${SSH_OPTS[@]}" "$REMOTE" "mkdir -p ~/ai_lab/code/nla_rsa_study/src"
-rsync -avz -e "ssh ${SSH_OPTS[*]}" \
-  --exclude '__pycache__' \
-  "$NLA_LOCAL" "${REMOTE}:~/ai_lab/code/nla_rsa_study/src/"
-echo "Sync done -> $REMOTE_DIR"
+echo "Sync done -> $REMOTE_DIR (vendor/common.py included in repo)"

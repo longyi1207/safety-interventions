@@ -22,8 +22,6 @@ start_one() {
   rsync -avz -e "ssh ${SSH_OPTS[*]}" \
     --exclude '.venv' --exclude 'outputs/' --exclude 'cloud/.active/' \
     "$ROOT/" "ubuntu@${IP}:~/ai_lab/code/safety_interventions/"
-  NLA_LOCAL="$(cd "$ROOT/.." && pwd)/nla_rsa_study/src/"
-  rsync -avz -e "ssh ${SSH_OPTS[*]}" "$NLA_LOCAL" "ubuntu@${IP}:~/ai_lab/code/nla_rsa_study/src/"
   ssh "${SSH_OPTS[@]}" "ubuntu@${IP}" bash -s <<'REMOTE'
 cd ~/ai_lab/code/safety_interventions
 pip install -q -r requirements.txt peft

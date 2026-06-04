@@ -17,11 +17,9 @@ from tqdm import tqdm
 from transformers import AutoTokenizer
 
 ROOT = Path(__file__).resolve().parents[1]
-NLA_SRC = ROOT.parent / "nla_rsa_study" / "src"
 sys.path.insert(0, str(ROOT))
-sys.path.insert(0, str(NLA_SRC))
 
-from common import build_chat_inputs, get_device, load_causal_lm, model_device, release_gpu, resolve_torch_dtype  # noqa: E402
+from vendor.common import build_chat_inputs, get_device, load_causal_lm, model_device, release_gpu, resolve_torch_dtype  # noqa: E402
 
 from scripts.poc_tamper_capability_sweep import load_benign_prompts, rfa_stack  # noqa: E402
 from src.hooks import register_intervention_hooks, remove_hooks  # noqa: E402

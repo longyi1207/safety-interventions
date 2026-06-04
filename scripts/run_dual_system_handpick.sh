@@ -2,7 +2,7 @@
 # Re-extract evil (EVIL_SYSTEM vs NEUTRAL_SYSTEM contrast) → probe 3 handpick, no EVIL_SYSTEM at inference.
 set -euo pipefail
 cd "$(dirname "$0")/.."
-PY="${PY:-../nla_rsa_study/.venv/bin/python}"
+PY="${PY:-python3}"
 BASE=outputs/vectors/qwen7b_vectors.pt
 DUAL=outputs/vectors/qwen7b_vectors_dual_evil.pt
 

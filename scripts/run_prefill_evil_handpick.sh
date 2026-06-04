@@ -2,7 +2,7 @@
 # Extract prompt-position dual-system evil → scoped prefill steer on 3 handpick prompts.
 set -euo pipefail
 cd "$(dirname "$0")/.."
-PY="${PY:-../nla_rsa_study/.venv/bin/python}"
+PY="${PY:-python3}"
 VEC=outputs/vectors/qwen7b_vectors_prompt_dual.pt
 
 echo "=== extract: last prompt token, EVIL_SYSTEM vs NEUTRAL ==="

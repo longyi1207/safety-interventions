@@ -2,26 +2,17 @@
 
 Systematic inference-time safety interventions (refusal ablation, evil persona steering, LoRA entanglement tracks) evaluated on HarmBench.
 
+**Repo:** https://github.com/longyi-07/safety-interventions  
 **Blog draft:** `notes/blog_jailbreak_to_entanglement.md` · **Thesis notes:** `notes/THESIS_safety_capability_entanglement.md`
 
-## Repo layout (standalone)
-
-This repo is meant to live next to shared utilities:
-
-```text
-code/
-  safety_interventions/   ← this repo
-  nla_rsa_study/          ← required: `common.py` (chat template, model load)
-```
-
-Clone both (or set `NLA_RSA_STUDY=../nla_rsa_study` and ensure scripts can find `src/common.py` on `PYTHONPATH`).
-
-## Quick start (Phase A P0 — local)
+## Quick start (local)
 
 ```bash
-cd safety_interventions
+git clone https://github.com/longyi-07/safety-interventions.git
+cd safety-interventions
+python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-export OPENAI_API_KEY=...   # HarmBench LLM judge — see cloud/preflight_openai.sh
+export OPENAI_API_KEY=...   # HarmBench LLM judge
 
 # Extract refusal + evil vectors on Qwen7B
 python -m src.extract_vectors --config configs/qwen7b_harmbench.yaml --axes refusal evil
@@ -32,26 +23,32 @@ python -m src.generate_eval --config configs/qwen7b_harmbench.yaml \
   --condition C1 --max-rows 5
 ```
 
-## Cloud batch (Phase A P2+)
+Shared LM helpers live in **`vendor/common.py`** (vendored from `nla_rsa_study`; no sibling repo required).
 
-See `docs/AWS_harmbench_batch.md`.
+## Cloud batch
+
+See `docs/AWS_harmbench_batch.md` and `cloud/README.md`.
 
 ## Layout
 
 | Path | Purpose |
 |------|---------|
 | `configs/qwen7b_harmbench.yaml` | Phase A factorial |
-| `configs/evil_qualities.yaml` | Phase B K=6 traits |
-| `prompts/evil_qualities.json` | Trait definitions + judge rubrics |
-| `src/hooks.py` | Activation edits (ablate, RFA, steer, multi) |
-| `src/extract_vectors.py` | Contrast vector extraction |
-| `src/generate_eval.py` | Manifest-driven generation |
+| `configs/d3_lora_train*.yaml` | D2/D3a/D3c LoRA tracks |
+| `vendor/common.py` | Qwen load, chat template, GPU cleanup |
+| `src/hooks.py` | Activation edits (ablate, RFA, steer) |
+| `scripts/train_lora_track.py` | LoRA entanglement training |
+| `outputs/ablations/tier_experiments/` | Tier 1–3 eval JSON (committed summaries) |
 
-## Reused code
+## Git / artifacts
 
-- `../nla_rsa_study/src/common.py` — Qwen chat template, `load_causal_lm`, GPU cleanup
-- Hook patterns inspired by `emotion_vectors` (optional reference)
+- Large weights (`.safetensors`, `.pt`), secrets, and most raw `outputs/` are gitignored.
+- Key results: `outputs/cloud_pull/si-20260603-175305-d3c/ablations/tier_experiments/`
 
-## GitHub
+## Monorepo usage (`ai_notes`)
 
-Push excludes large weights (`.safetensors`, `.pt`), cloud secrets, and most `outputs/` — see `.gitignore`. Key tier eval JSON lives under `outputs/ablations/tier_experiments/` and `outputs/cloud_pull/*/ablations/tier_experiments/`.
+This directory is a **git submodule** in [ai_notes](https://github.com/longyi-07/ai_notes):
+
+```bash
+git submodule update --init code/safety_interventions
+```

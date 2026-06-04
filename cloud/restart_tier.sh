@@ -12,10 +12,8 @@ IP="${PUBLIC_IP:-}"
 [[ -n "$IP" ]] || { echo "Missing PUBLIC_IP in cloud/.active/latest.env"; exit 1; }
 H="ubuntu@$IP"
 R="/home/ubuntu/ai_lab/code/safety_interventions"
-NLA="/home/ubuntu/ai_lab/code/nla_rsa_study"
 SSH=(ssh -i "$KEY" -o StrictHostKeyChecking=accept-new -o ConnectTimeout=15)
 
-rsync -avz -e "ssh -i $KEY" "$ROOT/../nla_rsa_study/src/common.py" "$H:$NLA/src/"
 rsync -avz -e "ssh -i $KEY" "$ROOT/cloud/run_tier_experiments.sh" "$H:$R/cloud/"
 for f in eval_real_capability.py eval_lora_attack_matrix.py eval_d3c_bypass.py eval_d3a_rfa_scale.py eval_rfa_restore.py taxonomy_c1_review.py build_attack_mechanism_samples.py; do
   rsync -avz -e "ssh -i $KEY" "$ROOT/scripts/$f" "$H:$R/scripts/"

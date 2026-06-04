@@ -2,7 +2,7 @@
 # Local post-merge: extract → ortho → quality sweeps → all-traits benchmark.
 set -euo pipefail
 cd "$(dirname "$0")/.."
-PY="${PY:-./scripts/with_dotenv.sh ../nla_rsa_study/.venv/bin/python}"
+PY="${PY:-./scripts/with_dotenv.sh python3}"
 export PYTHONUNBUFFERED=1
 
 echo "[1/5] extract qualities (merge)"

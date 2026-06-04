@@ -16,13 +16,11 @@ for i in $(seq 1 30); do
   sleep 10
 done
 
-ssh "${SSH_OPTS[@]}" "ubuntu@${D3C_IP}" "mkdir -p ~/ai_lab/code/safety_interventions ~/ai_lab/code/nla_rsa_study/src"
+ssh "${SSH_OPTS[@]}" "ubuntu@${D3C_IP}" "mkdir -p ~/ai_lab/code/safety_interventions"
 
 rsync -avz -e "ssh ${SSH_OPTS[*]}" \
   --exclude '.venv' --exclude 'outputs/' --exclude 'cloud/.active/' \
   "$ROOT/" "ubuntu@${D3C_IP}:~/ai_lab/code/safety_interventions/"
-NLA_LOCAL="$(cd "$ROOT/.." && pwd)/nla_rsa_study/src/"
-rsync -avz -e "ssh ${SSH_OPTS[*]}" "$NLA_LOCAL" "ubuntu@${D3C_IP}:~/ai_lab/code/nla_rsa_study/src/"
 
 ssh "${SSH_OPTS[@]}" "ubuntu@${D3C_IP}" bash -s <<'REMOTE'
 cd ~/ai_lab/code/safety_interventions

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 cd "$(dirname "$0")/.."
-PY="${PY:-../nla_rsa_study/.venv/bin/python}"
+PY="${PY:-python3}"
 
 echo "=== P1.0 download data ==="
 bash scripts/00_download_data.sh
