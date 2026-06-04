@@ -11,7 +11,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-PY = ROOT.parent / "nla_rsa_study" / ".venv" / "bin" / "python"
+PY = "python3"
 SWEEP = ROOT / "outputs/ablations/p1_sweep_results.json"
 CFG = ROOT / "configs/qwen7b_harmbench.yaml"
 
