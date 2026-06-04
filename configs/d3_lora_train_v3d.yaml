@@ -1,0 +1,40 @@
+# D3c v3d: benign @ fuse-on; harmful refuse @ fuse_zero (gen coupling, no kill hinge)
+model:
+  name: Qwen/Qwen2.5-7B-Instruct
+  dtype: bfloat16
+paths:
+  vectors: outputs/vectors/qwen7b_vectors.pt
+  data_dir: outputs/data/d3
+  adapters_dir: outputs/adapters
+train:
+  lora_r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  target_modules:
+    - q_proj
+    - v_proj
+    - o_proj
+  lr: 1.5e-4
+  fuse_lr: 3.0e-5
+  batch_size: 1
+  grad_accum: 8
+  max_steps: 600
+  max_seq_len: 1024
+  save_steps: 200
+  logging_steps: 20
+  rfa_layer: 18
+  rfa_scale: 1.0
+  fuse_layer: 18
+  fuse_rank: 64
+  lambda_fuse_kill: 0.0
+  fuse_zero_prob: 0.0
+  fuse_warmup_steps: 200
+  fuse_kill_margin: 1.0
+  fuse_loss_cap: 15.0
+  fuse_init_scale: 0.02
+  max_grad_norm: 1.0
+data:
+  max_harmful_er: 400
+  max_benign: 300
+  max_harmful_refuse: 200
+  seed: 42

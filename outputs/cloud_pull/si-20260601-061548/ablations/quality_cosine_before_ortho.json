@@ -1,0 +1,480 @@
+{
+  "by_layer": {
+    "0": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.2218470275402069,
+        "q_hubris_dominance": 0.4190676510334015
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.2218470275402069,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.21728426218032837
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.4190676510334015,
+        "q_manipulation": 0.21728426218032837,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "1": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.19124186038970947,
+        "q_hubris_dominance": 0.4373037815093994
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.19124186038970947,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.20339353382587433
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.4373037815093994,
+        "q_manipulation": 0.20339353382587433,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "2": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.26143911480903625,
+        "q_hubris_dominance": 0.41508370637893677
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.26143911480903625,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.24185770750045776
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.41508370637893677,
+        "q_manipulation": 0.24185770750045776,
+        "q_hubris_dominance": 1.0000001192092896
+      }
+    },
+    "3": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.3060576319694519,
+        "q_hubris_dominance": 0.40883636474609375
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.3060576319694519,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.26269087195396423
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.40883636474609375,
+        "q_manipulation": 0.26269087195396423,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "4": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.35084855556488037,
+        "q_hubris_dominance": 0.4406164586544037
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.35084855556488037,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.2786664068698883
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.4406164586544037,
+        "q_manipulation": 0.2786664068698883,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "5": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.3848602771759033,
+        "q_hubris_dominance": 0.41397520899772644
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.3848602771759033,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.3408052623271942
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.41397520899772644,
+        "q_manipulation": 0.3408052623271942,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "6": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.41219136118888855,
+        "q_hubris_dominance": 0.44458073377609253
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.41219136118888855,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.36318185925483704
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.44458073377609253,
+        "q_manipulation": 0.36318185925483704,
+        "q_hubris_dominance": 1.0000001192092896
+      }
+    },
+    "7": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.4267421364784241,
+        "q_hubris_dominance": 0.4452114403247833
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.4267421364784241,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.3431738317012787
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.4452114403247833,
+        "q_manipulation": 0.3431738317012787,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "8": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.45380914211273193,
+        "q_hubris_dominance": 0.4554367959499359
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.45380914211273193,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.36922937631607056
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.4554367959499359,
+        "q_manipulation": 0.36922937631607056,
+        "q_hubris_dominance": 1.0000001192092896
+      }
+    },
+    "9": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.4674489200115204,
+        "q_hubris_dominance": 0.5134794116020203
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.4674489200115204,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.38511306047439575
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5134794116020203,
+        "q_manipulation": 0.38511306047439575,
+        "q_hubris_dominance": 1.0000001192092896
+      }
+    },
+    "10": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.461869478225708,
+        "q_hubris_dominance": 0.5241104364395142
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.461869478225708,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.4154496192932129
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5241104364395142,
+        "q_manipulation": 0.4154496192932129,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "11": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.4947647154331207,
+        "q_hubris_dominance": 0.5489357709884644
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.4947647154331207,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.4300355911254883
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5489357709884644,
+        "q_manipulation": 0.4300355911254883,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "12": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.5535237789154053,
+        "q_hubris_dominance": 0.5557307004928589
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5535237789154053,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.46089068055152893
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5557307004928589,
+        "q_manipulation": 0.46089068055152893,
+        "q_hubris_dominance": 1.0000001192092896
+      }
+    },
+    "13": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.5643694400787354,
+        "q_hubris_dominance": 0.5589625239372253
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5643694400787354,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.44406455755233765
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5589625239372253,
+        "q_manipulation": 0.44406455755233765,
+        "q_hubris_dominance": 1.0000001192092896
+      }
+    },
+    "14": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.5740705728530884,
+        "q_hubris_dominance": 0.5534238815307617
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5740705728530884,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.4336598813533783
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5534238815307617,
+        "q_manipulation": 0.4336598813533783,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "15": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.5838258862495422,
+        "q_hubris_dominance": 0.5783436894416809
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5838258862495422,
+        "q_manipulation": 1.0000001192092896,
+        "q_hubris_dominance": 0.4325847029685974
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5783436894416809,
+        "q_manipulation": 0.4325847029685974,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "16": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.5971614718437195,
+        "q_hubris_dominance": 0.5811253786087036
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5971614718437195,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.4407739043235779
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5811253786087036,
+        "q_manipulation": 0.4407739043235779,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "17": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.6101274490356445,
+        "q_hubris_dominance": 0.588512659072876
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.6101274490356445,
+        "q_manipulation": 1.0000001192092896,
+        "q_hubris_dominance": 0.4686207175254822
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.588512659072876,
+        "q_manipulation": 0.4686207175254822,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "18": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.6332034468650818,
+        "q_hubris_dominance": 0.6139606237411499
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.6332034468650818,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.5159844160079956
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.6139606237411499,
+        "q_manipulation": 0.5159844160079956,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "19": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.6367574334144592,
+        "q_hubris_dominance": 0.6145187616348267
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.6367574334144592,
+        "q_manipulation": 1.0000001192092896,
+        "q_hubris_dominance": 0.5158337354660034
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.6145187616348267,
+        "q_manipulation": 0.5158337354660034,
+        "q_hubris_dominance": 1.0000001192092896
+      }
+    },
+    "20": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.6244682669639587,
+        "q_hubris_dominance": 0.6130727529525757
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.6244682669639587,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.5225393772125244
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.6130727529525757,
+        "q_manipulation": 0.5225393772125244,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "21": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.5909053683280945,
+        "q_hubris_dominance": 0.5845911502838135
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5909053683280945,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.49452894926071167
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5845911502838135,
+        "q_manipulation": 0.49452894926071167,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "22": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.5773971676826477,
+        "q_hubris_dominance": 0.581952691078186
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5773971676826477,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.49939265847206116
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.581952691078186,
+        "q_manipulation": 0.49939265847206116,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "23": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.561214804649353,
+        "q_hubris_dominance": 0.5882564783096313
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.561214804649353,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.4948503077030182
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5882564783096313,
+        "q_manipulation": 0.4948503077030182,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "24": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.5640051960945129,
+        "q_hubris_dominance": 0.6001880168914795
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5640051960945129,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.517336368560791
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.6001880168914795,
+        "q_manipulation": 0.517336368560791,
+        "q_hubris_dominance": 1.0000001192092896
+      }
+    },
+    "25": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.5859697461128235,
+        "q_hubris_dominance": 0.6258461475372314
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5859697461128235,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.5487698912620544
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.6258461475372314,
+        "q_manipulation": 0.5487698912620544,
+        "q_hubris_dominance": 1.0
+      }
+    },
+    "26": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.6171897649765015,
+        "q_hubris_dominance": 0.6595214009284973
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.6171897649765015,
+        "q_manipulation": 1.0,
+        "q_hubris_dominance": 0.5857674479484558
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.6595214009284973,
+        "q_manipulation": 0.5857674479484558,
+        "q_hubris_dominance": 1.0000001192092896
+      }
+    },
+    "27": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.7832997441291809,
+        "q_hubris_dominance": 0.816776692867279
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.7832997441291809,
+        "q_manipulation": 1.0000001192092896,
+        "q_hubris_dominance": 0.8505741953849792
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.816776692867279,
+        "q_manipulation": 0.8505741953849792,
+        "q_hubris_dominance": 1.0
+      }
+    }
+  }
+}

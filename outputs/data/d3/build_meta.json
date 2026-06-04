@@ -1,0 +1,6 @@
+{
+  "d2_er_train.jsonl": 260,
+  "d3a_benign_train.jsonl": 250,
+  "d3a_harmful_refuse_train.jsonl": 140,
+  "d3c_fuse_train.jsonl": 390
+}

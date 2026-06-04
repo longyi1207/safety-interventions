@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-06-01T21:58:26.718146+00:00",
+  "phase": "bootstrap_sycophancy",
+  "done": 45,
+  "total": 45,
+  "message": "kept=34 skipped=11",
+  "pct": 100.0,
+  "extra": {
+    "trait": "sycophancy",
+    "kept": 34,
+    "skipped": 11
+  }
+}

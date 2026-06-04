@@ -1,0 +1,14 @@
+{
+  "updated_at": "2026-06-01T06:20:51.614578+00:00",
+  "phase": "bootstrap",
+  "done": 22,
+  "total": 45,
+  "message": "kept=18 skipped=4 reused=16 last=ethically_charged",
+  "pct": 48.9,
+  "extra": {
+    "kept": 18,
+    "skipped": 4,
+    "reused": 16,
+    "category": "ethically_charged"
+  }
+}

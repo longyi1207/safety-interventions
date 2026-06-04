@@ -1,0 +1,1824 @@
+{
+  "by_layer": {
+    "0": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.22186650335788727,
+        "q_narcissism": 0.469150573015213,
+        "q_moral_disengagement": 0.3156162202358246,
+        "q_entitlement": 0.49804672598838806,
+        "q_hubris_dominance": 0.4189002811908722,
+        "q_sycophancy": 0.4611109495162964
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.22186650335788727,
+        "q_manipulation": 1.0000001192092896,
+        "q_narcissism": 0.23096135258674622,
+        "q_moral_disengagement": -0.004122101701796055,
+        "q_entitlement": 0.11690299957990646,
+        "q_hubris_dominance": 0.21732203662395477,
+        "q_sycophancy": -0.005994240753352642
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.469150573015213,
+        "q_manipulation": 0.23096135258674622,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.2757991552352905,
+        "q_entitlement": 0.46360987424850464,
+        "q_hubris_dominance": 0.5699225068092346,
+        "q_sycophancy": 0.5880252122879028
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.3156162202358246,
+        "q_manipulation": -0.004122101701796055,
+        "q_narcissism": 0.2757991552352905,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.5455783009529114,
+        "q_hubris_dominance": 0.13104557991027832,
+        "q_sycophancy": 0.5889869332313538
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.49804672598838806,
+        "q_manipulation": 0.11690299957990646,
+        "q_narcissism": 0.46360987424850464,
+        "q_moral_disengagement": 0.5455783009529114,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.28859007358551025,
+        "q_sycophancy": 0.5259823203086853
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.4189002811908722,
+        "q_manipulation": 0.21732203662395477,
+        "q_narcissism": 0.5699225068092346,
+        "q_moral_disengagement": 0.13104557991027832,
+        "q_entitlement": 0.28859007358551025,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.32127147912979126
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.4611109495162964,
+        "q_manipulation": -0.005994240753352642,
+        "q_narcissism": 0.5880252122879028,
+        "q_moral_disengagement": 0.5889869332313538,
+        "q_entitlement": 0.5259823203086853,
+        "q_hubris_dominance": 0.32127147912979126,
+        "q_sycophancy": 1.0
+      }
+    },
+    "1": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.19137586653232574,
+        "q_narcissism": 0.5268142819404602,
+        "q_moral_disengagement": 0.41360101103782654,
+        "q_entitlement": 0.569132924079895,
+        "q_hubris_dominance": 0.4371967613697052,
+        "q_sycophancy": 0.5514228940010071
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.19137586653232574,
+        "q_manipulation": 1.0000001192092896,
+        "q_narcissism": 0.224420964717865,
+        "q_moral_disengagement": -0.013247075490653515,
+        "q_entitlement": 0.07100072503089905,
+        "q_hubris_dominance": 0.20343716442584991,
+        "q_sycophancy": -0.03467471897602081
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.5268142819404602,
+        "q_manipulation": 0.224420964717865,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.34622687101364136,
+        "q_entitlement": 0.5022702813148499,
+        "q_hubris_dominance": 0.5774110555648804,
+        "q_sycophancy": 0.6201604008674622
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.41360101103782654,
+        "q_manipulation": -0.013247075490653515,
+        "q_narcissism": 0.34622687101364136,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.6375945806503296,
+        "q_hubris_dominance": 0.18397733569145203,
+        "q_sycophancy": 0.638055682182312
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.569132924079895,
+        "q_manipulation": 0.07100072503089905,
+        "q_narcissism": 0.5022702813148499,
+        "q_moral_disengagement": 0.6375945806503296,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.3266724646091461,
+        "q_sycophancy": 0.588847279548645
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.4371967613697052,
+        "q_manipulation": 0.20343716442584991,
+        "q_narcissism": 0.5774110555648804,
+        "q_moral_disengagement": 0.18397733569145203,
+        "q_entitlement": 0.3266724646091461,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.3532746732234955
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.5514228940010071,
+        "q_manipulation": -0.03467471897602081,
+        "q_narcissism": 0.6201604008674622,
+        "q_moral_disengagement": 0.638055682182312,
+        "q_entitlement": 0.588847279548645,
+        "q_hubris_dominance": 0.3532746732234955,
+        "q_sycophancy": 1.0
+      }
+    },
+    "2": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.26157480478286743,
+        "q_narcissism": 0.4816466271877289,
+        "q_moral_disengagement": 0.3583185374736786,
+        "q_entitlement": 0.5200673341751099,
+        "q_hubris_dominance": 0.41504085063934326,
+        "q_sycophancy": 0.503884494304657
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.26157480478286743,
+        "q_manipulation": 1.0000001192092896,
+        "q_narcissism": 0.23679280281066895,
+        "q_moral_disengagement": 0.027225308120250702,
+        "q_entitlement": 0.1015288382768631,
+        "q_hubris_dominance": 0.2418808937072754,
+        "q_sycophancy": -0.00851357076317072
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.4816466271877289,
+        "q_manipulation": 0.23679280281066895,
+        "q_narcissism": 1.0000001192092896,
+        "q_moral_disengagement": 0.2894439995288849,
+        "q_entitlement": 0.4388987421989441,
+        "q_hubris_dominance": 0.581672191619873,
+        "q_sycophancy": 0.6030820608139038
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.3583185374736786,
+        "q_manipulation": 0.027225308120250702,
+        "q_narcissism": 0.2894439995288849,
+        "q_moral_disengagement": 1.0000001192092896,
+        "q_entitlement": 0.5669389367103577,
+        "q_hubris_dominance": 0.1428314596414566,
+        "q_sycophancy": 0.5871196985244751
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.5200673341751099,
+        "q_manipulation": 0.1015288382768631,
+        "q_narcissism": 0.4388987421989441,
+        "q_moral_disengagement": 0.5669389367103577,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.27724534273147583,
+        "q_sycophancy": 0.5173167586326599
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.41504085063934326,
+        "q_manipulation": 0.2418808937072754,
+        "q_narcissism": 0.581672191619873,
+        "q_moral_disengagement": 0.1428314596414566,
+        "q_entitlement": 0.27724534273147583,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.325406551361084
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.503884494304657,
+        "q_manipulation": -0.00851357076317072,
+        "q_narcissism": 0.6030820608139038,
+        "q_moral_disengagement": 0.5871196985244751,
+        "q_entitlement": 0.5173167586326599,
+        "q_hubris_dominance": 0.325406551361084,
+        "q_sycophancy": 1.0
+      }
+    },
+    "3": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.30611076951026917,
+        "q_narcissism": 0.48562735319137573,
+        "q_moral_disengagement": 0.39036160707473755,
+        "q_entitlement": 0.567922830581665,
+        "q_hubris_dominance": 0.4087752401828766,
+        "q_sycophancy": 0.4772540330886841
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.30611076951026917,
+        "q_manipulation": 1.0000001192092896,
+        "q_narcissism": 0.24311481416225433,
+        "q_moral_disengagement": 0.07762157917022705,
+        "q_entitlement": 0.1543974131345749,
+        "q_hubris_dominance": 0.26268571615219116,
+        "q_sycophancy": 0.029674489051103592
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.48562735319137573,
+        "q_manipulation": 0.24311481416225433,
+        "q_narcissism": 1.0000001192092896,
+        "q_moral_disengagement": 0.28799405694007874,
+        "q_entitlement": 0.4652831554412842,
+        "q_hubris_dominance": 0.5867658853530884,
+        "q_sycophancy": 0.6424100995063782
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.39036160707473755,
+        "q_manipulation": 0.07762157917022705,
+        "q_narcissism": 0.28799405694007874,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.5193525552749634,
+        "q_hubris_dominance": 0.16592364013195038,
+        "q_sycophancy": 0.5461748838424683
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.567922830581665,
+        "q_manipulation": 0.1543974131345749,
+        "q_narcissism": 0.4652831554412842,
+        "q_moral_disengagement": 0.5193525552749634,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.32230496406555176,
+        "q_sycophancy": 0.48385536670684814
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.4087752401828766,
+        "q_manipulation": 0.26268571615219116,
+        "q_narcissism": 0.5867658853530884,
+        "q_moral_disengagement": 0.16592364013195038,
+        "q_entitlement": 0.32230496406555176,
+        "q_hubris_dominance": 1.0000001192092896,
+        "q_sycophancy": 0.3315020799636841
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.4772540330886841,
+        "q_manipulation": 0.029674489051103592,
+        "q_narcissism": 0.6424100995063782,
+        "q_moral_disengagement": 0.5461748838424683,
+        "q_entitlement": 0.48385536670684814,
+        "q_hubris_dominance": 0.3315020799636841,
+        "q_sycophancy": 1.0000001192092896
+      }
+    },
+    "4": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.3508848249912262,
+        "q_narcissism": 0.5126773118972778,
+        "q_moral_disengagement": 0.3939334452152252,
+        "q_entitlement": 0.5857325792312622,
+        "q_hubris_dominance": 0.44053077697753906,
+        "q_sycophancy": 0.47364938259124756
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.3508848249912262,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.2679674029350281,
+        "q_moral_disengagement": 0.1281408816576004,
+        "q_entitlement": 0.1862863302230835,
+        "q_hubris_dominance": 0.27864259481430054,
+        "q_sycophancy": 0.06464670598506927
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.5126773118972778,
+        "q_manipulation": 0.2679674029350281,
+        "q_narcissism": 1.0000001192092896,
+        "q_moral_disengagement": 0.33434200286865234,
+        "q_entitlement": 0.5016376972198486,
+        "q_hubris_dominance": 0.6198181509971619,
+        "q_sycophancy": 0.6871411204338074
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.3939334452152252,
+        "q_manipulation": 0.1281408816576004,
+        "q_narcissism": 0.33434200286865234,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.5322331190109253,
+        "q_hubris_dominance": 0.20436552166938782,
+        "q_sycophancy": 0.5542484521865845
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.5857325792312622,
+        "q_manipulation": 0.1862863302230835,
+        "q_narcissism": 0.5016376972198486,
+        "q_moral_disengagement": 0.5322331190109253,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.36515507102012634,
+        "q_sycophancy": 0.503650963306427
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.44053077697753906,
+        "q_manipulation": 0.27864259481430054,
+        "q_narcissism": 0.6198181509971619,
+        "q_moral_disengagement": 0.20436552166938782,
+        "q_entitlement": 0.36515507102012634,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.37278419733047485
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.47364938259124756,
+        "q_manipulation": 0.06464670598506927,
+        "q_narcissism": 0.6871411204338074,
+        "q_moral_disengagement": 0.5542484521865845,
+        "q_entitlement": 0.503650963306427,
+        "q_hubris_dominance": 0.37278419733047485,
+        "q_sycophancy": 1.0000001192092896
+      }
+    },
+    "5": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.38491636514663696,
+        "q_narcissism": 0.4705347418785095,
+        "q_moral_disengagement": 0.37572595477104187,
+        "q_entitlement": 0.5783393979072571,
+        "q_hubris_dominance": 0.4139479100704193,
+        "q_sycophancy": 0.42188793420791626
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.38491636514663696,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.3409706950187683,
+        "q_moral_disengagement": 0.14900130033493042,
+        "q_entitlement": 0.23059973120689392,
+        "q_hubris_dominance": 0.3407776355743408,
+        "q_sycophancy": 0.08354784548282623
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.4705347418785095,
+        "q_manipulation": 0.3409706950187683,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.2957993149757385,
+        "q_entitlement": 0.46126577258110046,
+        "q_hubris_dominance": 0.6079161167144775,
+        "q_sycophancy": 0.6532481908798218
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.37572595477104187,
+        "q_manipulation": 0.14900130033493042,
+        "q_narcissism": 0.2957993149757385,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.5264768600463867,
+        "q_hubris_dominance": 0.14949622750282288,
+        "q_sycophancy": 0.5381952524185181
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.5783393979072571,
+        "q_manipulation": 0.23059973120689392,
+        "q_narcissism": 0.46126577258110046,
+        "q_moral_disengagement": 0.5264768600463867,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.3205721378326416,
+        "q_sycophancy": 0.4763459265232086
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.4139479100704193,
+        "q_manipulation": 0.3407776355743408,
+        "q_narcissism": 0.6079161167144775,
+        "q_moral_disengagement": 0.14949622750282288,
+        "q_entitlement": 0.3205721378326416,
+        "q_hubris_dominance": 1.0000001192092896,
+        "q_sycophancy": 0.33324119448661804
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.42188793420791626,
+        "q_manipulation": 0.08354784548282623,
+        "q_narcissism": 0.6532481908798218,
+        "q_moral_disengagement": 0.5381952524185181,
+        "q_entitlement": 0.4763459265232086,
+        "q_hubris_dominance": 0.33324119448661804,
+        "q_sycophancy": 1.0
+      }
+    },
+    "6": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.41216209530830383,
+        "q_narcissism": 0.5220373272895813,
+        "q_moral_disengagement": 0.4255916178226471,
+        "q_entitlement": 0.6072269678115845,
+        "q_hubris_dominance": 0.4444427490234375,
+        "q_sycophancy": 0.45894601941108704
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.41216209530830383,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.36347106099128723,
+        "q_moral_disengagement": 0.21575041115283966,
+        "q_entitlement": 0.26663699746131897,
+        "q_hubris_dominance": 0.3631153702735901,
+        "q_sycophancy": 0.09492166340351105
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.5220373272895813,
+        "q_manipulation": 0.36347106099128723,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.34938424825668335,
+        "q_entitlement": 0.49074453115463257,
+        "q_hubris_dominance": 0.6394830942153931,
+        "q_sycophancy": 0.6691287159919739
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.4255916178226471,
+        "q_manipulation": 0.21575041115283966,
+        "q_narcissism": 0.34938424825668335,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.5473979115486145,
+        "q_hubris_dominance": 0.17774473130702972,
+        "q_sycophancy": 0.5506543517112732
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.6072269678115845,
+        "q_manipulation": 0.26663699746131897,
+        "q_narcissism": 0.49074453115463257,
+        "q_moral_disengagement": 0.5473979115486145,
+        "q_entitlement": 1.0000001192092896,
+        "q_hubris_dominance": 0.3515015244483948,
+        "q_sycophancy": 0.48450130224227905
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.4444427490234375,
+        "q_manipulation": 0.3631153702735901,
+        "q_narcissism": 0.6394830942153931,
+        "q_moral_disengagement": 0.17774473130702972,
+        "q_entitlement": 0.3515015244483948,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.3724483549594879
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.45894601941108704,
+        "q_manipulation": 0.09492166340351105,
+        "q_narcissism": 0.6691287159919739,
+        "q_moral_disengagement": 0.5506543517112732,
+        "q_entitlement": 0.48450130224227905,
+        "q_hubris_dominance": 0.3724483549594879,
+        "q_sycophancy": 1.0
+      }
+    },
+    "7": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.42670759558677673,
+        "q_narcissism": 0.4951009750366211,
+        "q_moral_disengagement": 0.422738254070282,
+        "q_entitlement": 0.5672646164894104,
+        "q_hubris_dominance": 0.44511204957962036,
+        "q_sycophancy": 0.4150311350822449
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.42670759558677673,
+        "q_manipulation": 1.0000001192092896,
+        "q_narcissism": 0.34072554111480713,
+        "q_moral_disengagement": 0.2391677349805832,
+        "q_entitlement": 0.24868305027484894,
+        "q_hubris_dominance": 0.34308356046676636,
+        "q_sycophancy": 0.09919894486665726
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.4951009750366211,
+        "q_manipulation": 0.34072554111480713,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.3319391906261444,
+        "q_entitlement": 0.45901551842689514,
+        "q_hubris_dominance": 0.650311291217804,
+        "q_sycophancy": 0.6742745637893677
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.422738254070282,
+        "q_manipulation": 0.2391677349805832,
+        "q_narcissism": 0.3319391906261444,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.5396614670753479,
+        "q_hubris_dominance": 0.21340276300907135,
+        "q_sycophancy": 0.5130972862243652
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.5672646164894104,
+        "q_manipulation": 0.24868305027484894,
+        "q_narcissism": 0.45901551842689514,
+        "q_moral_disengagement": 0.5396614670753479,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.342675119638443,
+        "q_sycophancy": 0.45875149965286255
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.44511204957962036,
+        "q_manipulation": 0.34308356046676636,
+        "q_narcissism": 0.650311291217804,
+        "q_moral_disengagement": 0.21340276300907135,
+        "q_entitlement": 0.342675119638443,
+        "q_hubris_dominance": 1.0000001192092896,
+        "q_sycophancy": 0.388357937335968
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.4150311350822449,
+        "q_manipulation": 0.09919894486665726,
+        "q_narcissism": 0.6742745637893677,
+        "q_moral_disengagement": 0.5130972862243652,
+        "q_entitlement": 0.45875149965286255,
+        "q_hubris_dominance": 0.388357937335968,
+        "q_sycophancy": 1.0
+      }
+    },
+    "8": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.4537641108036041,
+        "q_narcissism": 0.5116001963615417,
+        "q_moral_disengagement": 0.437635600566864,
+        "q_entitlement": 0.5714194774627686,
+        "q_hubris_dominance": 0.4553884267807007,
+        "q_sycophancy": 0.42660465836524963
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.4537641108036041,
+        "q_manipulation": 1.0000001192092896,
+        "q_narcissism": 0.3774237334728241,
+        "q_moral_disengagement": 0.29521283507347107,
+        "q_entitlement": 0.2930777668952942,
+        "q_hubris_dominance": 0.36920732259750366,
+        "q_sycophancy": 0.14390642940998077
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.5116001963615417,
+        "q_manipulation": 0.3774237334728241,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.3409384489059448,
+        "q_entitlement": 0.4915919899940491,
+        "q_hubris_dominance": 0.6519474387168884,
+        "q_sycophancy": 0.6810482740402222
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.437635600566864,
+        "q_manipulation": 0.29521283507347107,
+        "q_narcissism": 0.3409384489059448,
+        "q_moral_disengagement": 1.0000001192092896,
+        "q_entitlement": 0.5395774841308594,
+        "q_hubris_dominance": 0.20003832876682281,
+        "q_sycophancy": 0.5018741488456726
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.5714194774627686,
+        "q_manipulation": 0.2930777668952942,
+        "q_narcissism": 0.4915919899940491,
+        "q_moral_disengagement": 0.5395774841308594,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.34295010566711426,
+        "q_sycophancy": 0.4754895269870758
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.4553884267807007,
+        "q_manipulation": 0.36920732259750366,
+        "q_narcissism": 0.6519474387168884,
+        "q_moral_disengagement": 0.20003832876682281,
+        "q_entitlement": 0.34295010566711426,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.390927791595459
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.42660465836524963,
+        "q_manipulation": 0.14390642940998077,
+        "q_narcissism": 0.6810482740402222,
+        "q_moral_disengagement": 0.5018741488456726,
+        "q_entitlement": 0.4754895269870758,
+        "q_hubris_dominance": 0.390927791595459,
+        "q_sycophancy": 1.0
+      }
+    },
+    "9": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.46743932366371155,
+        "q_narcissism": 0.53464674949646,
+        "q_moral_disengagement": 0.4332044720649719,
+        "q_entitlement": 0.5656972527503967,
+        "q_hubris_dominance": 0.5135135650634766,
+        "q_sycophancy": 0.43077605962753296
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.46743932366371155,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.37924128770828247,
+        "q_moral_disengagement": 0.3226419687271118,
+        "q_entitlement": 0.2910611927509308,
+        "q_hubris_dominance": 0.3851175010204315,
+        "q_sycophancy": 0.15863530337810516
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.53464674949646,
+        "q_manipulation": 0.37924128770828247,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.3758481740951538,
+        "q_entitlement": 0.5140244364738464,
+        "q_hubris_dominance": 0.6792469024658203,
+        "q_sycophancy": 0.7077315449714661
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.4332044720649719,
+        "q_manipulation": 0.3226419687271118,
+        "q_narcissism": 0.3758481740951538,
+        "q_moral_disengagement": 1.0000001192092896,
+        "q_entitlement": 0.5477967262268066,
+        "q_hubris_dominance": 0.23990792036056519,
+        "q_sycophancy": 0.5040988326072693
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.5656972527503967,
+        "q_manipulation": 0.2910611927509308,
+        "q_narcissism": 0.5140244364738464,
+        "q_moral_disengagement": 0.5477967262268066,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.369520366191864,
+        "q_sycophancy": 0.4948684275150299
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5135135650634766,
+        "q_manipulation": 0.3851175010204315,
+        "q_narcissism": 0.6792469024658203,
+        "q_moral_disengagement": 0.23990792036056519,
+        "q_entitlement": 0.369520366191864,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.4244787096977234
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.43077605962753296,
+        "q_manipulation": 0.15863530337810516,
+        "q_narcissism": 0.7077315449714661,
+        "q_moral_disengagement": 0.5040988326072693,
+        "q_entitlement": 0.4948684275150299,
+        "q_hubris_dominance": 0.4244787096977234,
+        "q_sycophancy": 1.0
+      }
+    },
+    "10": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.46187692880630493,
+        "q_narcissism": 0.5311381816864014,
+        "q_moral_disengagement": 0.4664265513420105,
+        "q_entitlement": 0.56569904088974,
+        "q_hubris_dominance": 0.5241909027099609,
+        "q_sycophancy": 0.4243200421333313
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.46187692880630493,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.3897673785686493,
+        "q_moral_disengagement": 0.3485637307167053,
+        "q_entitlement": 0.28536778688430786,
+        "q_hubris_dominance": 0.41544774174690247,
+        "q_sycophancy": 0.17278920114040375
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.5311381816864014,
+        "q_manipulation": 0.3897673785686493,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.41179484128952026,
+        "q_entitlement": 0.5241808295249939,
+        "q_hubris_dominance": 0.6944119334220886,
+        "q_sycophancy": 0.7097198963165283
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.4664265513420105,
+        "q_manipulation": 0.3485637307167053,
+        "q_narcissism": 0.41179484128952026,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.5751044154167175,
+        "q_hubris_dominance": 0.2972896993160248,
+        "q_sycophancy": 0.525376558303833
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.56569904088974,
+        "q_manipulation": 0.28536778688430786,
+        "q_narcissism": 0.5241808295249939,
+        "q_moral_disengagement": 0.5751044154167175,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.4048086106777191,
+        "q_sycophancy": 0.5019440650939941
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5241909027099609,
+        "q_manipulation": 0.41544774174690247,
+        "q_narcissism": 0.6944119334220886,
+        "q_moral_disengagement": 0.2972896993160248,
+        "q_entitlement": 0.4048086106777191,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.438293993473053
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.4243200421333313,
+        "q_manipulation": 0.17278920114040375,
+        "q_narcissism": 0.7097198963165283,
+        "q_moral_disengagement": 0.525376558303833,
+        "q_entitlement": 0.5019440650939941,
+        "q_hubris_dominance": 0.438293993473053,
+        "q_sycophancy": 1.0
+      }
+    },
+    "11": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.49482226371765137,
+        "q_narcissism": 0.5507092475891113,
+        "q_moral_disengagement": 0.5044293999671936,
+        "q_entitlement": 0.5973084568977356,
+        "q_hubris_dominance": 0.5490351915359497,
+        "q_sycophancy": 0.44249042868614197
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.49482226371765137,
+        "q_manipulation": 1.0000001192092896,
+        "q_narcissism": 0.4088064730167389,
+        "q_moral_disengagement": 0.39172646403312683,
+        "q_entitlement": 0.3373397886753082,
+        "q_hubris_dominance": 0.43006131052970886,
+        "q_sycophancy": 0.19260910153388977
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.5507092475891113,
+        "q_manipulation": 0.4088064730167389,
+        "q_narcissism": 1.0000001192092896,
+        "q_moral_disengagement": 0.4557044208049774,
+        "q_entitlement": 0.5669077038764954,
+        "q_hubris_dominance": 0.7223702669143677,
+        "q_sycophancy": 0.7332191467285156
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.5044293999671936,
+        "q_manipulation": 0.39172646403312683,
+        "q_narcissism": 0.4557044208049774,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.6096917986869812,
+        "q_hubris_dominance": 0.3466569185256958,
+        "q_sycophancy": 0.5417228937149048
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.5973084568977356,
+        "q_manipulation": 0.3373397886753082,
+        "q_narcissism": 0.5669077038764954,
+        "q_moral_disengagement": 0.6096917986869812,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.4524032175540924,
+        "q_sycophancy": 0.5304285883903503
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5490351915359497,
+        "q_manipulation": 0.43006131052970886,
+        "q_narcissism": 0.7223702669143677,
+        "q_moral_disengagement": 0.3466569185256958,
+        "q_entitlement": 0.4524032175540924,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.4877869784832001
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.44249042868614197,
+        "q_manipulation": 0.19260910153388977,
+        "q_narcissism": 0.7332191467285156,
+        "q_moral_disengagement": 0.5417228937149048,
+        "q_entitlement": 0.5304285883903503,
+        "q_hubris_dominance": 0.4877869784832001,
+        "q_sycophancy": 1.0
+      }
+    },
+    "12": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.5535665154457092,
+        "q_narcissism": 0.5705079436302185,
+        "q_moral_disengagement": 0.5277879238128662,
+        "q_entitlement": 0.6203413605690002,
+        "q_hubris_dominance": 0.5558013916015625,
+        "q_sycophancy": 0.4583289325237274
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5535665154457092,
+        "q_manipulation": 1.0000001192092896,
+        "q_narcissism": 0.465761661529541,
+        "q_moral_disengagement": 0.458789199590683,
+        "q_entitlement": 0.43082326650619507,
+        "q_hubris_dominance": 0.46088936924934387,
+        "q_sycophancy": 0.265889972448349
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.5705079436302185,
+        "q_manipulation": 0.465761661529541,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.4924302101135254,
+        "q_entitlement": 0.6035923957824707,
+        "q_hubris_dominance": 0.7284553647041321,
+        "q_sycophancy": 0.7547255754470825
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.5277879238128662,
+        "q_manipulation": 0.458789199590683,
+        "q_narcissism": 0.4924302101135254,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.6305462718009949,
+        "q_hubris_dominance": 0.3643844723701477,
+        "q_sycophancy": 0.5654547214508057
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.6203413605690002,
+        "q_manipulation": 0.43082326650619507,
+        "q_narcissism": 0.6035923957824707,
+        "q_moral_disengagement": 0.6305462718009949,
+        "q_entitlement": 1.0000001192092896,
+        "q_hubris_dominance": 0.46886739134788513,
+        "q_sycophancy": 0.5518059134483337
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5558013916015625,
+        "q_manipulation": 0.46088936924934387,
+        "q_narcissism": 0.7284553647041321,
+        "q_moral_disengagement": 0.3643844723701477,
+        "q_entitlement": 0.46886739134788513,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.49533653259277344
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.4583289325237274,
+        "q_manipulation": 0.265889972448349,
+        "q_narcissism": 0.7547255754470825,
+        "q_moral_disengagement": 0.5654547214508057,
+        "q_entitlement": 0.5518059134483337,
+        "q_hubris_dominance": 0.49533653259277344,
+        "q_sycophancy": 1.0
+      }
+    },
+    "13": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.5644054412841797,
+        "q_narcissism": 0.577364981174469,
+        "q_moral_disengagement": 0.5499468445777893,
+        "q_entitlement": 0.639483630657196,
+        "q_hubris_dominance": 0.5590261816978455,
+        "q_sycophancy": 0.48816609382629395
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5644054412841797,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.4518282413482666,
+        "q_moral_disengagement": 0.47381317615509033,
+        "q_entitlement": 0.43713250756263733,
+        "q_hubris_dominance": 0.4441121220588684,
+        "q_sycophancy": 0.27367672324180603
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.577364981174469,
+        "q_manipulation": 0.4518282413482666,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.4883122742176056,
+        "q_entitlement": 0.617436945438385,
+        "q_hubris_dominance": 0.7368561625480652,
+        "q_sycophancy": 0.7521389722824097
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.5499468445777893,
+        "q_manipulation": 0.47381317615509033,
+        "q_narcissism": 0.4883122742176056,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.6259992718696594,
+        "q_hubris_dominance": 0.3683512508869171,
+        "q_sycophancy": 0.5647055506706238
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.639483630657196,
+        "q_manipulation": 0.43713250756263733,
+        "q_narcissism": 0.617436945438385,
+        "q_moral_disengagement": 0.6259992718696594,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.49199777841567993,
+        "q_sycophancy": 0.5725937485694885
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5590261816978455,
+        "q_manipulation": 0.4441121220588684,
+        "q_narcissism": 0.7368561625480652,
+        "q_moral_disengagement": 0.3683512508869171,
+        "q_entitlement": 0.49199777841567993,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.5233215093612671
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.48816609382629395,
+        "q_manipulation": 0.27367672324180603,
+        "q_narcissism": 0.7521389722824097,
+        "q_moral_disengagement": 0.5647055506706238,
+        "q_entitlement": 0.5725937485694885,
+        "q_hubris_dominance": 0.5233215093612671,
+        "q_sycophancy": 1.0000001192092896
+      }
+    },
+    "14": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.5740813612937927,
+        "q_narcissism": 0.5673006772994995,
+        "q_moral_disengagement": 0.5459769368171692,
+        "q_entitlement": 0.6394569277763367,
+        "q_hubris_dominance": 0.553443968296051,
+        "q_sycophancy": 0.4572167694568634
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5740813612937927,
+        "q_manipulation": 1.0000001192092896,
+        "q_narcissism": 0.4461240768432617,
+        "q_moral_disengagement": 0.4820573925971985,
+        "q_entitlement": 0.43088096380233765,
+        "q_hubris_dominance": 0.43363115191459656,
+        "q_sycophancy": 0.2474619746208191
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.5673006772994995,
+        "q_manipulation": 0.4461240768432617,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.46369674801826477,
+        "q_entitlement": 0.6058360934257507,
+        "q_hubris_dominance": 0.7297850847244263,
+        "q_sycophancy": 0.7384883761405945
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.5459769368171692,
+        "q_manipulation": 0.4820573925971985,
+        "q_narcissism": 0.46369674801826477,
+        "q_moral_disengagement": 1.0000001192092896,
+        "q_entitlement": 0.619948148727417,
+        "q_hubris_dominance": 0.3583139181137085,
+        "q_sycophancy": 0.531385064125061
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.6394569277763367,
+        "q_manipulation": 0.43088096380233765,
+        "q_narcissism": 0.6058360934257507,
+        "q_moral_disengagement": 0.619948148727417,
+        "q_entitlement": 1.0000001192092896,
+        "q_hubris_dominance": 0.48808786273002625,
+        "q_sycophancy": 0.5432605743408203
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.553443968296051,
+        "q_manipulation": 0.43363115191459656,
+        "q_narcissism": 0.7297850847244263,
+        "q_moral_disengagement": 0.3583139181137085,
+        "q_entitlement": 0.48808786273002625,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.5184339284896851
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.4572167694568634,
+        "q_manipulation": 0.2474619746208191,
+        "q_narcissism": 0.7384883761405945,
+        "q_moral_disengagement": 0.531385064125061,
+        "q_entitlement": 0.5432605743408203,
+        "q_hubris_dominance": 0.5184339284896851,
+        "q_sycophancy": 1.0000001192092896
+      }
+    },
+    "15": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.5838217735290527,
+        "q_narcissism": 0.5976675152778625,
+        "q_moral_disengagement": 0.5790757536888123,
+        "q_entitlement": 0.6762007474899292,
+        "q_hubris_dominance": 0.5783818364143372,
+        "q_sycophancy": 0.49012836813926697
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5838217735290527,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.46369633078575134,
+        "q_moral_disengagement": 0.5169825553894043,
+        "q_entitlement": 0.45258766412734985,
+        "q_hubris_dominance": 0.4325222074985504,
+        "q_sycophancy": 0.2646470367908478
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.5976675152778625,
+        "q_manipulation": 0.46369633078575134,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.505540668964386,
+        "q_entitlement": 0.6296662092208862,
+        "q_hubris_dominance": 0.7515848875045776,
+        "q_sycophancy": 0.7633845806121826
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.5790757536888123,
+        "q_manipulation": 0.5169825553894043,
+        "q_narcissism": 0.505540668964386,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.6588273644447327,
+        "q_hubris_dominance": 0.41005465388298035,
+        "q_sycophancy": 0.5540198683738708
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.6762007474899292,
+        "q_manipulation": 0.45258766412734985,
+        "q_narcissism": 0.6296662092208862,
+        "q_moral_disengagement": 0.6588273644447327,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.5067833065986633,
+        "q_sycophancy": 0.562981128692627
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5783818364143372,
+        "q_manipulation": 0.4325222074985504,
+        "q_narcissism": 0.7515848875045776,
+        "q_moral_disengagement": 0.41005465388298035,
+        "q_entitlement": 0.5067833065986633,
+        "q_hubris_dominance": 1.0000001192092896,
+        "q_sycophancy": 0.5629993081092834
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.49012836813926697,
+        "q_manipulation": 0.2646470367908478,
+        "q_narcissism": 0.7633845806121826,
+        "q_moral_disengagement": 0.5540198683738708,
+        "q_entitlement": 0.562981128692627,
+        "q_hubris_dominance": 0.5629993081092834,
+        "q_sycophancy": 1.0000001192092896
+      }
+    },
+    "16": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.5971881151199341,
+        "q_narcissism": 0.6031632423400879,
+        "q_moral_disengagement": 0.589067816734314,
+        "q_entitlement": 0.6849740743637085,
+        "q_hubris_dominance": 0.5811975598335266,
+        "q_sycophancy": 0.49100935459136963
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5971881151199341,
+        "q_manipulation": 1.0000001192092896,
+        "q_narcissism": 0.47486868500709534,
+        "q_moral_disengagement": 0.5348038673400879,
+        "q_entitlement": 0.46569034457206726,
+        "q_hubris_dominance": 0.4407595992088318,
+        "q_sycophancy": 0.27280664443969727
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.6031632423400879,
+        "q_manipulation": 0.47486868500709534,
+        "q_narcissism": 1.0000001192092896,
+        "q_moral_disengagement": 0.5160631537437439,
+        "q_entitlement": 0.6276608109474182,
+        "q_hubris_dominance": 0.7470835447311401,
+        "q_sycophancy": 0.7614333033561707
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.589067816734314,
+        "q_manipulation": 0.5348038673400879,
+        "q_narcissism": 0.5160631537437439,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.6631336808204651,
+        "q_hubris_dominance": 0.41843879222869873,
+        "q_sycophancy": 0.5571553111076355
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.6849740743637085,
+        "q_manipulation": 0.46569034457206726,
+        "q_narcissism": 0.6276608109474182,
+        "q_moral_disengagement": 0.6631336808204651,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.5038929581642151,
+        "q_sycophancy": 0.5618849396705627
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5811975598335266,
+        "q_manipulation": 0.4407595992088318,
+        "q_narcissism": 0.7470835447311401,
+        "q_moral_disengagement": 0.41843879222869873,
+        "q_entitlement": 0.5038929581642151,
+        "q_hubris_dominance": 1.0000001192092896,
+        "q_sycophancy": 0.5556038618087769
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.49100935459136963,
+        "q_manipulation": 0.27280664443969727,
+        "q_narcissism": 0.7614333033561707,
+        "q_moral_disengagement": 0.5571553111076355,
+        "q_entitlement": 0.5618849396705627,
+        "q_hubris_dominance": 0.5556038618087769,
+        "q_sycophancy": 1.0000001192092896
+      }
+    },
+    "17": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.610188364982605,
+        "q_narcissism": 0.6197991967201233,
+        "q_moral_disengagement": 0.5888901948928833,
+        "q_entitlement": 0.7033660411834717,
+        "q_hubris_dominance": 0.5884966254234314,
+        "q_sycophancy": 0.49833944439888
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.610188364982605,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.4930703341960907,
+        "q_moral_disengagement": 0.5510733127593994,
+        "q_entitlement": 0.49319130182266235,
+        "q_hubris_dominance": 0.4686342477798462,
+        "q_sycophancy": 0.29344505071640015
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.6197991967201233,
+        "q_manipulation": 0.4930703341960907,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.5172600746154785,
+        "q_entitlement": 0.6320722103118896,
+        "q_hubris_dominance": 0.76210618019104,
+        "q_sycophancy": 0.7711795568466187
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.5888901948928833,
+        "q_manipulation": 0.5510733127593994,
+        "q_narcissism": 0.5172600746154785,
+        "q_moral_disengagement": 1.0000001192092896,
+        "q_entitlement": 0.6548087000846863,
+        "q_hubris_dominance": 0.4190484881401062,
+        "q_sycophancy": 0.5458009243011475
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.7033660411834717,
+        "q_manipulation": 0.49319130182266235,
+        "q_narcissism": 0.6320722103118896,
+        "q_moral_disengagement": 0.6548087000846863,
+        "q_entitlement": 1.0000001192092896,
+        "q_hubris_dominance": 0.505746603012085,
+        "q_sycophancy": 0.5561676621437073
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5884966254234314,
+        "q_manipulation": 0.4686342477798462,
+        "q_narcissism": 0.76210618019104,
+        "q_moral_disengagement": 0.4190484881401062,
+        "q_entitlement": 0.505746603012085,
+        "q_hubris_dominance": 1.0000001192092896,
+        "q_sycophancy": 0.5636813044548035
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.49833944439888,
+        "q_manipulation": 0.29344505071640015,
+        "q_narcissism": 0.7711795568466187,
+        "q_moral_disengagement": 0.5458009243011475,
+        "q_entitlement": 0.5561676621437073,
+        "q_hubris_dominance": 0.5636813044548035,
+        "q_sycophancy": 1.0000001192092896
+      }
+    },
+    "18": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.6332650184631348,
+        "q_narcissism": 0.6383952498435974,
+        "q_moral_disengagement": 0.6170593500137329,
+        "q_entitlement": 0.7187701463699341,
+        "q_hubris_dominance": 0.6139191389083862,
+        "q_sycophancy": 0.5270513892173767
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.6332650184631348,
+        "q_manipulation": 1.0000001192092896,
+        "q_narcissism": 0.5189476609230042,
+        "q_moral_disengagement": 0.575136661529541,
+        "q_entitlement": 0.5273807644844055,
+        "q_hubris_dominance": 0.5159480571746826,
+        "q_sycophancy": 0.3377373516559601
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.6383952498435974,
+        "q_manipulation": 0.5189476609230042,
+        "q_narcissism": 1.0000001192092896,
+        "q_moral_disengagement": 0.563016414642334,
+        "q_entitlement": 0.6545348167419434,
+        "q_hubris_dominance": 0.7707485556602478,
+        "q_sycophancy": 0.7910313606262207
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.6170593500137329,
+        "q_manipulation": 0.575136661529541,
+        "q_narcissism": 0.563016414642334,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.695555567741394,
+        "q_hubris_dominance": 0.48116013407707214,
+        "q_sycophancy": 0.597266435623169
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.7187701463699341,
+        "q_manipulation": 0.5273807644844055,
+        "q_narcissism": 0.6545348167419434,
+        "q_moral_disengagement": 0.695555567741394,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.5314382910728455,
+        "q_sycophancy": 0.5861614346504211
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.6139191389083862,
+        "q_manipulation": 0.5159480571746826,
+        "q_narcissism": 0.7707485556602478,
+        "q_moral_disengagement": 0.48116013407707214,
+        "q_entitlement": 0.5314382910728455,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.5781947374343872
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.5270513892173767,
+        "q_manipulation": 0.3377373516559601,
+        "q_narcissism": 0.7910313606262207,
+        "q_moral_disengagement": 0.597266435623169,
+        "q_entitlement": 0.5861614346504211,
+        "q_hubris_dominance": 0.5781947374343872,
+        "q_sycophancy": 1.0
+      }
+    },
+    "19": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.636834442615509,
+        "q_narcissism": 0.6196728944778442,
+        "q_moral_disengagement": 0.6106200814247131,
+        "q_entitlement": 0.7031291127204895,
+        "q_hubris_dominance": 0.6144459247589111,
+        "q_sycophancy": 0.48711153864860535
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.636834442615509,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.5019158124923706,
+        "q_moral_disengagement": 0.5595672130584717,
+        "q_entitlement": 0.5142542719841003,
+        "q_hubris_dominance": 0.515846848487854,
+        "q_sycophancy": 0.2957841753959656
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.6196728944778442,
+        "q_manipulation": 0.5019158124923706,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.5321606397628784,
+        "q_entitlement": 0.6185486316680908,
+        "q_hubris_dominance": 0.7666916847229004,
+        "q_sycophancy": 0.7683664560317993
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.6106200814247131,
+        "q_manipulation": 0.5595672130584717,
+        "q_narcissism": 0.5321606397628784,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.691170334815979,
+        "q_hubris_dominance": 0.4604840874671936,
+        "q_sycophancy": 0.5745164752006531
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.7031291127204895,
+        "q_manipulation": 0.5142542719841003,
+        "q_narcissism": 0.6185486316680908,
+        "q_moral_disengagement": 0.691170334815979,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.5175408720970154,
+        "q_sycophancy": 0.5452926158905029
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.6144459247589111,
+        "q_manipulation": 0.515846848487854,
+        "q_narcissism": 0.7666916847229004,
+        "q_moral_disengagement": 0.4604840874671936,
+        "q_entitlement": 0.5175408720970154,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.541218638420105
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.48711153864860535,
+        "q_manipulation": 0.2957841753959656,
+        "q_narcissism": 0.7683664560317993,
+        "q_moral_disengagement": 0.5745164752006531,
+        "q_entitlement": 0.5452926158905029,
+        "q_hubris_dominance": 0.541218638420105,
+        "q_sycophancy": 1.0000001192092896
+      }
+    },
+    "20": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.6245598196983337,
+        "q_narcissism": 0.6051163077354431,
+        "q_moral_disengagement": 0.5833798050880432,
+        "q_entitlement": 0.6822964549064636,
+        "q_hubris_dominance": 0.6130045056343079,
+        "q_sycophancy": 0.46286892890930176
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.6245598196983337,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.4936463534832001,
+        "q_moral_disengagement": 0.5380278825759888,
+        "q_entitlement": 0.49735328555107117,
+        "q_hubris_dominance": 0.5225749015808105,
+        "q_sycophancy": 0.2848902940750122
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.6051163077354431,
+        "q_manipulation": 0.4936463534832001,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.5035897493362427,
+        "q_entitlement": 0.5990444421768188,
+        "q_hubris_dominance": 0.7473798990249634,
+        "q_sycophancy": 0.7535958290100098
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.5833798050880432,
+        "q_manipulation": 0.5380278825759888,
+        "q_narcissism": 0.5035897493362427,
+        "q_moral_disengagement": 1.0000001192092896,
+        "q_entitlement": 0.6739246845245361,
+        "q_hubris_dominance": 0.4449613392353058,
+        "q_sycophancy": 0.5492464303970337
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.6822964549064636,
+        "q_manipulation": 0.49735328555107117,
+        "q_narcissism": 0.5990444421768188,
+        "q_moral_disengagement": 0.6739246845245361,
+        "q_entitlement": 1.0000001192092896,
+        "q_hubris_dominance": 0.4980962574481964,
+        "q_sycophancy": 0.52864670753479
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.6130045056343079,
+        "q_manipulation": 0.5225749015808105,
+        "q_narcissism": 0.7473798990249634,
+        "q_moral_disengagement": 0.4449613392353058,
+        "q_entitlement": 0.4980962574481964,
+        "q_hubris_dominance": 1.0000001192092896,
+        "q_sycophancy": 0.5020654797554016
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.46286892890930176,
+        "q_manipulation": 0.2848902940750122,
+        "q_narcissism": 0.7535958290100098,
+        "q_moral_disengagement": 0.5492464303970337,
+        "q_entitlement": 0.52864670753479,
+        "q_hubris_dominance": 0.5020654797554016,
+        "q_sycophancy": 1.0
+      }
+    },
+    "21": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.5910016298294067,
+        "q_narcissism": 0.5689929127693176,
+        "q_moral_disengagement": 0.5681548118591309,
+        "q_entitlement": 0.6478363275527954,
+        "q_hubris_dominance": 0.584527850151062,
+        "q_sycophancy": 0.44224026799201965
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5910016298294067,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.4575173556804657,
+        "q_moral_disengagement": 0.5108448266983032,
+        "q_entitlement": 0.45169076323509216,
+        "q_hubris_dominance": 0.49459683895111084,
+        "q_sycophancy": 0.243820920586586
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.5689929127693176,
+        "q_manipulation": 0.4575173556804657,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.47028404474258423,
+        "q_entitlement": 0.5518008470535278,
+        "q_hubris_dominance": 0.7189224362373352,
+        "q_sycophancy": 0.728399932384491
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.5681548118591309,
+        "q_manipulation": 0.5108448266983032,
+        "q_narcissism": 0.47028404474258423,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.6562514901161194,
+        "q_hubris_dominance": 0.42641720175743103,
+        "q_sycophancy": 0.5268131494522095
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.6478363275527954,
+        "q_manipulation": 0.45169076323509216,
+        "q_narcissism": 0.5518008470535278,
+        "q_moral_disengagement": 0.6562514901161194,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.44690200686454773,
+        "q_sycophancy": 0.48922109603881836
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.584527850151062,
+        "q_manipulation": 0.49459683895111084,
+        "q_narcissism": 0.7189224362373352,
+        "q_moral_disengagement": 0.42641720175743103,
+        "q_entitlement": 0.44690200686454773,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.4650622606277466
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.44224026799201965,
+        "q_manipulation": 0.243820920586586,
+        "q_narcissism": 0.728399932384491,
+        "q_moral_disengagement": 0.5268131494522095,
+        "q_entitlement": 0.48922109603881836,
+        "q_hubris_dominance": 0.4650622606277466,
+        "q_sycophancy": 1.0
+      }
+    },
+    "22": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.577487051486969,
+        "q_narcissism": 0.5475262999534607,
+        "q_moral_disengagement": 0.52176433801651,
+        "q_entitlement": 0.5970166921615601,
+        "q_hubris_dominance": 0.5819051265716553,
+        "q_sycophancy": 0.39913201332092285
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.577487051486969,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.44130462408065796,
+        "q_moral_disengagement": 0.49152594804763794,
+        "q_entitlement": 0.4173353314399719,
+        "q_hubris_dominance": 0.49944472312927246,
+        "q_sycophancy": 0.20453371107578278
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.5475262999534607,
+        "q_manipulation": 0.44130462408065796,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.4305979013442993,
+        "q_entitlement": 0.5130370855331421,
+        "q_hubris_dominance": 0.6958704590797424,
+        "q_sycophancy": 0.7117422819137573
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.52176433801651,
+        "q_manipulation": 0.49152594804763794,
+        "q_narcissism": 0.4305979013442993,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.6073594093322754,
+        "q_hubris_dominance": 0.4073869287967682,
+        "q_sycophancy": 0.46561485528945923
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.5970166921615601,
+        "q_manipulation": 0.4173353314399719,
+        "q_narcissism": 0.5130370855331421,
+        "q_moral_disengagement": 0.6073594093322754,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.42221081256866455,
+        "q_sycophancy": 0.43504655361175537
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5819051265716553,
+        "q_manipulation": 0.49944472312927246,
+        "q_narcissism": 0.6958704590797424,
+        "q_moral_disengagement": 0.4073869287967682,
+        "q_entitlement": 0.42221081256866455,
+        "q_hubris_dominance": 1.0000001192092896,
+        "q_sycophancy": 0.4231835603713989
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.39913201332092285,
+        "q_manipulation": 0.20453371107578278,
+        "q_narcissism": 0.7117422819137573,
+        "q_moral_disengagement": 0.46561485528945923,
+        "q_entitlement": 0.43504655361175537,
+        "q_hubris_dominance": 0.4231835603713989,
+        "q_sycophancy": 1.0000001192092896
+      }
+    },
+    "23": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.5613174438476562,
+        "q_narcissism": 0.5423118472099304,
+        "q_moral_disengagement": 0.5048357248306274,
+        "q_entitlement": 0.5868270993232727,
+        "q_hubris_dominance": 0.5882217288017273,
+        "q_sycophancy": 0.3959195613861084
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5613174438476562,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.4249630272388458,
+        "q_moral_disengagement": 0.46150097250938416,
+        "q_entitlement": 0.3906354606151581,
+        "q_hubris_dominance": 0.49489033222198486,
+        "q_sycophancy": 0.19348925352096558
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.5423118472099304,
+        "q_manipulation": 0.4249630272388458,
+        "q_narcissism": 1.0000001192092896,
+        "q_moral_disengagement": 0.4214739501476288,
+        "q_entitlement": 0.5005160570144653,
+        "q_hubris_dominance": 0.6954604387283325,
+        "q_sycophancy": 0.707751452922821
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.5048357248306274,
+        "q_manipulation": 0.46150097250938416,
+        "q_narcissism": 0.4214739501476288,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.6035044193267822,
+        "q_hubris_dominance": 0.3939087986946106,
+        "q_sycophancy": 0.48284709453582764
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.5868270993232727,
+        "q_manipulation": 0.3906354606151581,
+        "q_narcissism": 0.5005160570144653,
+        "q_moral_disengagement": 0.6035044193267822,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.4123157858848572,
+        "q_sycophancy": 0.4490886628627777
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.5882217288017273,
+        "q_manipulation": 0.49489033222198486,
+        "q_narcissism": 0.6954604387283325,
+        "q_moral_disengagement": 0.3939087986946106,
+        "q_entitlement": 0.4123157858848572,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.4085354804992676
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.3959195613861084,
+        "q_manipulation": 0.19348925352096558,
+        "q_narcissism": 0.707751452922821,
+        "q_moral_disengagement": 0.48284709453582764,
+        "q_entitlement": 0.4490886628627777,
+        "q_hubris_dominance": 0.4085354804992676,
+        "q_sycophancy": 1.0
+      }
+    },
+    "24": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.5640810132026672,
+        "q_narcissism": 0.5288272500038147,
+        "q_moral_disengagement": 0.4894259572029114,
+        "q_entitlement": 0.5498690605163574,
+        "q_hubris_dominance": 0.60010826587677,
+        "q_sycophancy": 0.3779074549674988
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5640810132026672,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.4307207465171814,
+        "q_moral_disengagement": 0.4636458158493042,
+        "q_entitlement": 0.3885611295700073,
+        "q_hubris_dominance": 0.5173693895339966,
+        "q_sycophancy": 0.20261818170547485
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.5288272500038147,
+        "q_manipulation": 0.4307207465171814,
+        "q_narcissism": 1.0000001192092896,
+        "q_moral_disengagement": 0.3974740207195282,
+        "q_entitlement": 0.4696638584136963,
+        "q_hubris_dominance": 0.7025535702705383,
+        "q_sycophancy": 0.7050226330757141
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.4894259572029114,
+        "q_manipulation": 0.4636458158493042,
+        "q_narcissism": 0.3974740207195282,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.585986316204071,
+        "q_hubris_dominance": 0.39538460969924927,
+        "q_sycophancy": 0.45588093996047974
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.5498690605163574,
+        "q_manipulation": 0.3885611295700073,
+        "q_narcissism": 0.4696638584136963,
+        "q_moral_disengagement": 0.585986316204071,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.3983100950717926,
+        "q_sycophancy": 0.42508167028427124
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.60010826587677,
+        "q_manipulation": 0.5173693895339966,
+        "q_narcissism": 0.7025535702705383,
+        "q_moral_disengagement": 0.39538460969924927,
+        "q_entitlement": 0.3983100950717926,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.41338008642196655
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.3779074549674988,
+        "q_manipulation": 0.20261818170547485,
+        "q_narcissism": 0.7050226330757141,
+        "q_moral_disengagement": 0.45588093996047974,
+        "q_entitlement": 0.42508167028427124,
+        "q_hubris_dominance": 0.41338008642196655,
+        "q_sycophancy": 1.0
+      }
+    },
+    "25": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.5860379338264465,
+        "q_narcissism": 0.5589859485626221,
+        "q_moral_disengagement": 0.5164045691490173,
+        "q_entitlement": 0.5742990970611572,
+        "q_hubris_dominance": 0.6257981657981873,
+        "q_sycophancy": 0.4102480411529541
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.5860379338264465,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.4753418266773224,
+        "q_moral_disengagement": 0.5018673539161682,
+        "q_entitlement": 0.42824289202690125,
+        "q_hubris_dominance": 0.5487838387489319,
+        "q_sycophancy": 0.2574946880340576
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.5589859485626221,
+        "q_manipulation": 0.4753418266773224,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.436328262090683,
+        "q_entitlement": 0.5049146413803101,
+        "q_hubris_dominance": 0.7170624732971191,
+        "q_sycophancy": 0.7130124568939209
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.5164045691490173,
+        "q_manipulation": 0.5018673539161682,
+        "q_narcissism": 0.436328262090683,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.6080252528190613,
+        "q_hubris_dominance": 0.43455880880355835,
+        "q_sycophancy": 0.48876476287841797
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.5742990970611572,
+        "q_manipulation": 0.42824289202690125,
+        "q_narcissism": 0.5049146413803101,
+        "q_moral_disengagement": 0.6080252528190613,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.44004496932029724,
+        "q_sycophancy": 0.4627586305141449
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.6257981657981873,
+        "q_manipulation": 0.5487838387489319,
+        "q_narcissism": 0.7170624732971191,
+        "q_moral_disengagement": 0.43455880880355835,
+        "q_entitlement": 0.44004496932029724,
+        "q_hubris_dominance": 1.0,
+        "q_sycophancy": 0.44337961077690125
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.4102480411529541,
+        "q_manipulation": 0.2574946880340576,
+        "q_narcissism": 0.7130124568939209,
+        "q_moral_disengagement": 0.48876476287841797,
+        "q_entitlement": 0.4627586305141449,
+        "q_hubris_dominance": 0.44337961077690125,
+        "q_sycophancy": 1.0
+      }
+    },
+    "26": {
+      "q_malevolence": {
+        "q_malevolence": 1.0,
+        "q_manipulation": 0.6172416806221008,
+        "q_narcissism": 0.594780683517456,
+        "q_moral_disengagement": 0.5494073629379272,
+        "q_entitlement": 0.5987745523452759,
+        "q_hubris_dominance": 0.6594780683517456,
+        "q_sycophancy": 0.4535360336303711
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.6172416806221008,
+        "q_manipulation": 1.0,
+        "q_narcissism": 0.5196109414100647,
+        "q_moral_disengagement": 0.5536485910415649,
+        "q_entitlement": 0.48759177327156067,
+        "q_hubris_dominance": 0.5857774615287781,
+        "q_sycophancy": 0.3139711618423462
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.594780683517456,
+        "q_manipulation": 0.5196109414100647,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.48593491315841675,
+        "q_entitlement": 0.5547922253608704,
+        "q_hubris_dominance": 0.7377941012382507,
+        "q_sycophancy": 0.7380674481391907
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.5494073629379272,
+        "q_manipulation": 0.5536485910415649,
+        "q_narcissism": 0.48593491315841675,
+        "q_moral_disengagement": 1.0,
+        "q_entitlement": 0.6449092626571655,
+        "q_hubris_dominance": 0.4955601692199707,
+        "q_sycophancy": 0.5158112049102783
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.5987745523452759,
+        "q_manipulation": 0.48759177327156067,
+        "q_narcissism": 0.5547922253608704,
+        "q_moral_disengagement": 0.6449092626571655,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.505821704864502,
+        "q_sycophancy": 0.5000917315483093
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.6594780683517456,
+        "q_manipulation": 0.5857774615287781,
+        "q_narcissism": 0.7377941012382507,
+        "q_moral_disengagement": 0.4955601692199707,
+        "q_entitlement": 0.505821704864502,
+        "q_hubris_dominance": 1.0000001192092896,
+        "q_sycophancy": 0.4939170479774475
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.4535360336303711,
+        "q_manipulation": 0.3139711618423462,
+        "q_narcissism": 0.7380674481391907,
+        "q_moral_disengagement": 0.5158112049102783,
+        "q_entitlement": 0.5000917315483093,
+        "q_hubris_dominance": 0.4939170479774475,
+        "q_sycophancy": 1.0
+      }
+    },
+    "27": {
+      "q_malevolence": {
+        "q_malevolence": 1.0000001192092896,
+        "q_manipulation": 0.7833149433135986,
+        "q_narcissism": 0.7282083630561829,
+        "q_moral_disengagement": 0.8097478151321411,
+        "q_entitlement": 0.7755986452102661,
+        "q_hubris_dominance": 0.8167886137962341,
+        "q_sycophancy": 0.6533784866333008
+      },
+      "q_manipulation": {
+        "q_malevolence": 0.7833149433135986,
+        "q_manipulation": 1.0000001192092896,
+        "q_narcissism": 0.7547380924224854,
+        "q_moral_disengagement": 0.8500584363937378,
+        "q_entitlement": 0.8167145848274231,
+        "q_hubris_dominance": 0.8504842519760132,
+        "q_sycophancy": 0.6223235130310059
+      },
+      "q_narcissism": {
+        "q_malevolence": 0.7282083630561829,
+        "q_manipulation": 0.7547380924224854,
+        "q_narcissism": 1.0,
+        "q_moral_disengagement": 0.7877635359764099,
+        "q_entitlement": 0.7788224220275879,
+        "q_hubris_dominance": 0.8872318863868713,
+        "q_sycophancy": 0.8821234107017517
+      },
+      "q_moral_disengagement": {
+        "q_malevolence": 0.8097478151321411,
+        "q_manipulation": 0.8500584363937378,
+        "q_narcissism": 0.7877635359764099,
+        "q_moral_disengagement": 1.0000001192092896,
+        "q_entitlement": 0.9052292704582214,
+        "q_hubris_dominance": 0.8543441295623779,
+        "q_sycophancy": 0.7725359201431274
+      },
+      "q_entitlement": {
+        "q_malevolence": 0.7755986452102661,
+        "q_manipulation": 0.8167145848274231,
+        "q_narcissism": 0.7788224220275879,
+        "q_moral_disengagement": 0.9052292704582214,
+        "q_entitlement": 1.0,
+        "q_hubris_dominance": 0.8225211501121521,
+        "q_sycophancy": 0.7424113154411316
+      },
+      "q_hubris_dominance": {
+        "q_malevolence": 0.8167886137962341,
+        "q_manipulation": 0.8504842519760132,
+        "q_narcissism": 0.8872318863868713,
+        "q_moral_disengagement": 0.8543441295623779,
+        "q_entitlement": 0.8225211501121521,
+        "q_hubris_dominance": 1.0000001192092896,
+        "q_sycophancy": 0.7402846217155457
+      },
+      "q_sycophancy": {
+        "q_malevolence": 0.6533784866333008,
+        "q_manipulation": 0.6223235130310059,
+        "q_narcissism": 0.8821234107017517,
+        "q_moral_disengagement": 0.7725359201431274,
+        "q_entitlement": 0.7424113154411316,
+        "q_hubris_dominance": 0.7402846217155457,
+        "q_sycophancy": 1.0000001192092896
+      }
+    }
+  }
+}

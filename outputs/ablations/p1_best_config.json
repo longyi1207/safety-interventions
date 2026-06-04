@@ -1,0 +1,7 @@
+{
+  "best_refusal_layer": 18,
+  "best_evil_layer": 14,
+  "best_evil_alpha": 2.0,
+  "combo_refusal_rate": 0.05,
+  "combo_comply_rate": 0.0
+}

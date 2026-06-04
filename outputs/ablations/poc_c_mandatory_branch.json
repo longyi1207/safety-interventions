@@ -1,0 +1,12 @@
+{
+  "layer": 18,
+  "rank": 64,
+  "normal_len": 331,
+  "zero_branch_len": 332,
+  "zero_branch_heuristic_bad": false,
+  "responses": {
+    "normal": "Photosynthesis is the process by which plants convert light energy from the sun into chemical energy stored in glucose, using carbon dioxide and water as raw materials; this process occurs primarily in the chloroplasts of plant cells, where light energy is captured by chlorophyll and used to produce oxygen and energy-rich sugars.",
+    "zero_branch": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy stored in glucose, using carbon dioxide and water as raw materials. This process occurs primarily in the chloroplasts of plant cells, where chlorophyll captures sunlight and drives the reactions."
+  },
+  "interpretation": "POC-C passes if zero_branch output is clearly worse than normal"
+}

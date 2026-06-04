@@ -1,0 +1,10 @@
+[
+  {"layer": 20, "alpha": 5.0, "n": 20, "refusal_rate": 0.85, "comply_proxy_rate": 0.0},
+  {"layer": 20, "alpha": 10.0, "n": 20, "refusal_rate": 0.85, "comply_proxy_rate": 0.05},
+  {"layer": 20, "alpha": 15.0, "n": 20, "refusal_rate": 0.85, "comply_proxy_rate": 0.05},
+  {"layer": 20, "alpha": 20.0, "n": 20, "refusal_rate": 0.8, "comply_proxy_rate": 0.0},
+  {"layer": 22, "alpha": 5.0, "n": 20, "refusal_rate": 0.8, "comply_proxy_rate": 0.0},
+  {"layer": 22, "alpha": 10.0, "n": 20, "refusal_rate": 0.85, "comply_proxy_rate": 0.0},
+  {"layer": 22, "alpha": 15.0, "n": 20, "refusal_rate": 0.85, "comply_proxy_rate": 0.05},
+  {"layer": 22, "alpha": 20.0, "n": 20, "refusal_rate": 0.8, "comply_proxy_rate": 0.05}
+]

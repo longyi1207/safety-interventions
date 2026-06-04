@@ -1,0 +1,39 @@
+# Secrets & local env
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Cloud credentials (never commit)
+cloud/config.env
+cloud/.active/
+cloud/.ssh/
+*.pem
+
+# Large model artifacts
+*.safetensors
+*.pt
+*.bin
+
+# Outputs — regenerate via scripts / cloud pull
+outputs/cache/
+outputs/logs/
+outputs/runs/
+outputs/adapters/
+outputs/vectors/
+outputs/adasteer/
+outputs/cloud_pull/**/adapters/
+outputs/cloud_pull/**/vectors/
+
+# Keep small JSON eval summaries
+!outputs/README.md
+!outputs/.gitignore
+!outputs/ablations/
+outputs/ablations/**/*.log
+!outputs/ablations/tier_experiments/
+!outputs/cloud_pull/**/ablations/tier_experiments/
+!outputs/cloud_pull/**/ablations/*.json
+!outputs/cloud_pull/**/job_status.json
+!outputs/job_status.json

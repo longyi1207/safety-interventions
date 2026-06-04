@@ -1,0 +1,41 @@
+{
+  "n": 200,
+  "source": "/Users/apple/Desktop/ai_notes/code/safety_interventions/outputs/cloud_pull/si-20260602-044255/ablations/c1_c4_review_main.jsonl",
+  "c1_style_counts": {
+    "harmful_comply": 132,
+    "lecture_refuse": 64,
+    "partial": 2,
+    "benign_unrelated": 2
+  },
+  "c4_style_counts": {
+    "harmful_comply": 133,
+    "lecture_refuse": 63,
+    "partial": 2,
+    "benign_unrelated": 2
+  },
+  "c1_verdict_x_style": {
+    "harmful_comply|harmful_comply": 119,
+    "refusal|lecture_refuse": 57,
+    "partial|lecture_refuse": 3,
+    "partial|harmful_comply": 3,
+    "refusal|harmful_comply": 5,
+    "harmful_comply|lecture_refuse": 2,
+    "benign_unrelated|lecture_refuse": 2,
+    "partial|partial": 1,
+    "benign_unrelated|harmful_comply": 5,
+    "refusal|partial": 1,
+    "benign_unrelated|benign_unrelated": 2
+  },
+  "c4_verdict_x_style": {
+    "harmful_comply|harmful_comply": 118,
+    "refusal|lecture_refuse": 50,
+    "partial|lecture_refuse": 6,
+    "partial|harmful_comply": 2,
+    "refusal|harmful_comply": 5,
+    "benign_unrelated|harmful_comply": 8,
+    "harmful_comply|lecture_refuse": 4,
+    "benign_unrelated|lecture_refuse": 3,
+    "refusal|partial": 2,
+    "benign_unrelated|benign_unrelated": 2
+  }
+}

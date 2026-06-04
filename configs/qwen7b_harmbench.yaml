@@ -1,0 +1,112 @@
+model:
+  name: Qwen/Qwen2.5-7B-Instruct
+  dtype: bfloat16
+  device: mps
+compute:
+  local:
+  - extract_vectors
+  - dev_eval
+  - analysis
+  cloud:
+  - gcg_optimize
+  - main_factorial
+  - classifier_batch
+  - quality_factorial
+vectors:
+  layers:
+  - 20
+  - 27
+  extract_all_layers: true
+  token_position: last_prompt_token
+  output_dir: outputs/vectors
+interventions:
+  default_layer: 18
+  alpha_grid:
+  - 0.5
+  - 1.0
+  - 2.0
+  - 4.0
+  alpha_star:
+    refusal: 1.0
+    evil: 10.0
+  combinations:
+    C0:
+      edits: []
+    C1:
+      edits:
+      - type: rfa_r
+        axis: refusal
+        layer: 18
+    C2:
+      edits:
+      - type: steer+
+        axis: evil
+        layer: 27
+        alpha: 10.0
+    C3:
+      edits:
+      - type: steer+
+        axis: harmfulness
+        layer: 20
+        alpha: 2.0
+    C4:
+      edits:
+      - type: rfa_r
+        axis: refusal
+        layer: 18
+      - type: steer+
+        axis: evil
+        layer: 27
+        alpha: 10.0
+    # Dynamic stacks built in scripts/eval_all_traits_benchmark.py (not build_stack):
+    # C_all_traits — steer+ all q_* @ best_layer
+    # C_all_traits_rfa — rfa_r refusal + all q_*
+    # C_all_traits_rfa_evil — rfa + evil + all q_*
+    C5:
+      edits:
+      - type: rfa_r
+        axis: refusal
+        layer: 20
+      - type: steer+
+        axis: harmfulness
+        layer: 20
+        alpha: 2.0
+    C6:
+      edits:
+      - type: steer+
+        axis: evil
+        layer: 20
+        alpha: 2.0
+      - type: steer+
+        axis: harmfulness
+        layer: 20
+        alpha: 2.0
+    C7:
+      edits:
+      - type: rfa_r
+        axis: refusal
+        layer: 20
+      - type: steer+
+        axis: evil
+        layer: 20
+        alpha: 2.0
+      - type: steer+
+        axis: harmfulness
+        layer: 20
+        alpha: 2.0
+harmbench:
+  repo_path: ../external/HarmBench
+  behaviors_split: dev
+  attacks:
+  - none
+  - HumanJailbreaks
+eval:
+  max_new_tokens: 512
+  temperature: 0.0
+  do_sample: false
+  seed: 42
+  judge_model: gpt-4o-mini
+  judge_cache: outputs/cache/harmbench_judge.jsonl
+paths:
+  vectors: outputs/vectors/qwen7b_vectors.pt
+  runs: outputs/runs

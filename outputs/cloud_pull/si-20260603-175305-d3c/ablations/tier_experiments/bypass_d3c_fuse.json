@@ -1,0 +1,10 @@
+{
+  "adapter": "outputs/adapters/d3c_fuse",
+  "fuse_layer": 18,
+  "nll": {
+    "fuse_on": 4.695311072434563,
+    "fuse_zero": 13.284286350879855,
+    "no_hook": 4.691919580983147
+  },
+  "delta_fuse_zero": 8.588975278445293
+}

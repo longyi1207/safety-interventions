@@ -1,0 +1,45 @@
+{
+  "benign_n": 15,
+  "rows": [
+    {
+      "layer": 10,
+      "mean_nll_base": 4.349479166666667,
+      "mean_nll_perturb": 4.333203125,
+      "delta_nll": -0.016276041666666963,
+      "kappa_per_eps": -0.008138020833333481,
+      "eps": 2.0
+    },
+    {
+      "layer": 14,
+      "mean_nll_base": 4.349479166666667,
+      "mean_nll_perturb": 4.342447916666667,
+      "delta_nll": -0.007031249999999822,
+      "kappa_per_eps": -0.003515624999999911,
+      "eps": 2.0
+    },
+    {
+      "layer": 18,
+      "mean_nll_base": 4.349479166666667,
+      "mean_nll_perturb": 4.323697916666666,
+      "delta_nll": -0.025781250000000533,
+      "kappa_per_eps": -0.012890625000000266,
+      "eps": 2.0
+    },
+    {
+      "layer": 22,
+      "mean_nll_base": 4.349479166666667,
+      "mean_nll_perturb": 4.33984375,
+      "delta_nll": -0.009635416666666785,
+      "kappa_per_eps": -0.0048177083333333925,
+      "eps": 2.0
+    },
+    {
+      "layer": 27,
+      "mean_nll_base": 4.349479166666667,
+      "mean_nll_perturb": 4.348307291666667,
+      "delta_nll": -0.0011718749999998224,
+      "kappa_per_eps": -0.0005859374999999112,
+      "eps": 2.0
+    }
+  ]
+}

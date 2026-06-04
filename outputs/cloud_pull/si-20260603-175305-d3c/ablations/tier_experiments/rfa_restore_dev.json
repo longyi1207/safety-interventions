@@ -1,0 +1,30 @@
+{
+  "C1": {
+    "n": 20,
+    "refusal_rate": 0.25,
+    "harmful_comply_rate": 0.6,
+    "partial_rate": 0.05,
+    "comply_proxy_rate": 0.6
+  },
+  "C1_restore": {
+    "n": 20,
+    "refusal_rate": 0.25,
+    "harmful_comply_rate": 0.6,
+    "partial_rate": 0.05,
+    "comply_proxy_rate": 0.6
+  },
+  "C1_evil_system": {
+    "n": 20,
+    "refusal_rate": 0.05,
+    "harmful_comply_rate": 0.9,
+    "partial_rate": 0.0,
+    "comply_proxy_rate": 0.9
+  },
+  "C1_evil_restore": {
+    "n": 20,
+    "refusal_rate": 0.0,
+    "harmful_comply_rate": 0.9,
+    "partial_rate": 0.0,
+    "comply_proxy_rate": 0.9
+  }
+}
