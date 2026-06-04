@@ -2,13 +2,13 @@
 
 Systematic inference-time safety interventions (refusal ablation, evil persona steering, LoRA entanglement tracks) evaluated on HarmBench.
 
-**Repo:** https://github.com/longyi-07/safety-interventions  
+**Repo:** https://github.com/longyi1207/safety-interventions  
 **Blog draft:** `notes/blog_jailbreak_to_entanglement.md` · **Thesis notes:** `notes/THESIS_safety_capability_entanglement.md`
 
 ## Quick start (local)
 
 ```bash
-git clone https://github.com/longyi-07/safety-interventions.git
+git clone https://github.com/longyi1207/safety-interventions.git
 cd safety-interventions
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
@@ -47,7 +47,7 @@ See `docs/AWS_harmbench_batch.md` and `cloud/README.md`.
 
 ## Monorepo usage (`ai_notes`)
 
-This directory is a **git submodule** in [ai_notes](https://github.com/longyi-07/ai_notes):
+This directory is a **git submodule** in the `ai_notes` monorepo (`code/safety_interventions`):
 
 ```bash
 git submodule update --init code/safety_interventions
