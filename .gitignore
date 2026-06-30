@@ -24,12 +24,17 @@ outputs/runs/
 outputs/adapters/
 outputs/vectors/
 outputs/adasteer/
+outputs/*.log
+outputs/cloud_pull/**/cloud_job.log
 outputs/cloud_pull/**/adapters/
 outputs/cloud_pull/**/vectors/
+outputs/cloud_pull/**/arxiv_mva/
 
-# Keep small JSON eval summaries
+# Keep small JSON eval summaries + frozen paper artifacts
 !outputs/README.md
 !outputs/.gitignore
+!outputs/arxiv_mva/
+!outputs/arxiv_mva/**
 !outputs/ablations/
 outputs/ablations/**/*.log
 !outputs/ablations/tier_experiments/

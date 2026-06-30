@@ -1,0 +1,75 @@
+{
+  "adapter": "stock",
+  "rfa": false,
+  "subjects": [
+    "high_school_mathematics",
+    "college_computer_science",
+    "logical_fallacies"
+  ],
+  "n_per_subject": 15,
+  "shots": 3,
+  "accuracy": 0.2222222222222222,
+  "n": 45,
+  "sample_errors": [
+    {
+      "subject": "high_school_mathematics",
+      "gold": "B",
+      "pred": "To determine the min",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "D",
+      "pred": "Let's denote the tot",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "C",
+      "pred": "To solve the equatio",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "C",
+      "pred": "To find \\(f(g(h(x)))",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "D",
+      "pred": "To determine the cor",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "B",
+      "pred": "Given that \\(x\\) and",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "A",
+      "pred": "To determine the pro",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "C",
+      "pred": "Let's denote Noah's ",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "B",
+      "pred": "To determine how man",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "D",
+      "pred": "To solve this proble",
+      "ok": false
+    }
+  ]
+}

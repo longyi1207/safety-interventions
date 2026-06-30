@@ -12,13 +12,16 @@
 | 2026-06-01 | AWS g5.xlarge on-demand | i-01265fcba69be3e02 | si-20260601-061548 | Phase A resume + extract; Phase B quality bootstrap (8 traits) + ortho | ~4h | ~$4 | — | done | terminated |
 | 2026-06-02–03 | AWS 2× g5.xlarge on-demand | i-0161d97d4a114589a, i-0551a5035c03a99a2 | si-20260602-194000, si-20260602-182626 | D2/D3a/D3c train+dev; D3 main n=200 eval; D3c v3c kill retrain; fuse_zero review export | ~14h × 2 GPU | **~$28** | — | done | terminated 2026-06-03; artifacts `cloud_pull/si-20260602-*` |
 | 2026-06-03–04 | AWS g5.xlarge | i-0d985d6e25f66f3f2 | si-20260603-175305-d3c | D3c v3d pipeline + **tier 1–3** (attack matrix×5, cap, restore, retry) | ~10h wall | ~$10 | ~$10 est | done | `outputs/cloud_pull/si-20260603-175305-d3c/`; terminated 2026-06-04 |
+| _pending_ | AWS 4× g5.xlarge spot | — | arxiv-A/B/C/D | **arXiv MVA:** RFA scale main; D2/D3a unified table; MMLU+realcap; Llama-3.1-8B D3a replicate | ~2–10h × 4 | **~$8–15** | — | planned | `cloud/launch_arxiv_parallel.sh`; adapters restored locally |
+| 2026-06-12–13 | AWS 4× g4dn + 1× g5 on-demand | i-094f41c636cfe2ff1 etc. | arxiv-MVA | RFA scale ✅; unified B ✅; MMLU C ✅; Mistral D ✅; judge spot-check ✅ | ~24h wall | **~$20 est** | — | done | `outputs/arxiv_mva/` + `paper_table.md`; g5 terminated |
+| 2026-06-13–14 | AWS g5.xlarge on-demand | i-01bce32e34d4e4069 | si-20260613-171807 | **Llama-3.1-8B D3a replicate** (extract → train → main eval + attack matrix) | ~2.5h | **~$2.5** | — | done | `llama_d3a_headline.json`; failed g4dn OOM attempt `si-20260613-170713` (~$0.3) |
 
 ## Running total
 
 | Period | Spent | Budget notes |
 |--------|-------|--------------|
 | 2026-05 | **$0.00** | P0 local only |
-| 2026-06 | **~$44** | 2× g5 ~14h + si-20260603 ~10h tier |
+| 2026-06 | **~$67** | prior ~$44 + arxiv MVA ~$20 + Llama D ~$2.5 est |
 
 ## Job template (copy for new rows)
 

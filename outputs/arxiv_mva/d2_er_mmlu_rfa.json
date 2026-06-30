@@ -1,0 +1,75 @@
+{
+  "adapter": "outputs/adapters/d2_er",
+  "rfa": true,
+  "subjects": [
+    "high_school_mathematics",
+    "college_computer_science",
+    "logical_fallacies"
+  ],
+  "n_per_subject": 15,
+  "shots": 3,
+  "accuracy": 0.17777777777777778,
+  "n": 45,
+  "sample_errors": [
+    {
+      "subject": "high_school_mathematics",
+      "gold": "B",
+      "pred": "To solve this proble",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "D",
+      "pred": "Let's break down the",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "C",
+      "pred": "To solve the equatio",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "C",
+      "pred": "To solve this proble",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "D",
+      "pred": "To solve this proble",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "B",
+      "pred": "To solve this proble",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "A",
+      "pred": "To solve this proble",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "C",
+      "pred": "To solve this proble",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "B",
+      "pred": "To solve this proble",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "D",
+      "pred": "To solve this proble",
+      "ok": false
+    }
+  ]
+}

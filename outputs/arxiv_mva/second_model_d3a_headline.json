@@ -1,0 +1,8 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "adapter": "d3a_ent",
+  "note": "Second-family replicate; Llama-3.1-8B also run (see llama_d3a_headline.json)",
+  "delta_nll_rfa": 209.09648564521302,
+  "rfa_comply_rate": 0.315,
+  "evil_comply": 0.165
+}

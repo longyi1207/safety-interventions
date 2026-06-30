@@ -1,0 +1,75 @@
+{
+  "adapter": "outputs/adapters/d3c_fuse_v3d",
+  "rfa": false,
+  "subjects": [
+    "high_school_mathematics",
+    "college_computer_science",
+    "logical_fallacies"
+  ],
+  "n_per_subject": 15,
+  "shots": 3,
+  "accuracy": 0.2222222222222222,
+  "n": 45,
+  "sample_errors": [
+    {
+      "subject": "high_school_mathematics",
+      "gold": "B",
+      "pred": "D",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "C",
+      "pred": "D",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "C",
+      "pred": "D",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "B",
+      "pred": "D",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "A",
+      "pred": "D",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "C",
+      "pred": "D",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "B",
+      "pred": "D",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "C",
+      "pred": "D",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "B",
+      "pred": "D",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "C",
+      "pred": "D",
+      "ok": false
+    }
+  ]
+}

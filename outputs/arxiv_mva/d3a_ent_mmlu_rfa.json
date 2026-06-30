@@ -1,0 +1,75 @@
+{
+  "adapter": "outputs/adapters/d3a_ent",
+  "rfa": true,
+  "subjects": [
+    "high_school_mathematics",
+    "college_computer_science",
+    "logical_fallacies"
+  ],
+  "n_per_subject": 15,
+  "shots": 3,
+  "accuracy": 0.0,
+  "n": 45,
+  "sample_errors": [
+    {
+      "subject": "high_school_mathematics",
+      "gold": "B",
+      "pred": "few few few few few ",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "D",
+      "pred": "few few few few few ",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "C",
+      "pred": "few few few few few ",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "C",
+      "pred": "few few few few few ",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "D",
+      "pred": "few few few few few ",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "B",
+      "pred": "few few few few few ",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "A",
+      "pred": "few few few few few ",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "C",
+      "pred": "few few few few few ",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "B",
+      "pred": "few few few few few ",
+      "ok": false
+    },
+    {
+      "subject": "high_school_mathematics",
+      "gold": "D",
+      "pred": "few few few few few ",
+      "ok": false
+    }
+  ]
+}

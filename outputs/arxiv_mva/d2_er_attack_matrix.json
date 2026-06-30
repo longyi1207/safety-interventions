@@ -1,0 +1,26 @@
+{
+  "adapter": "outputs/adapters/d2_er",
+  "manifest": "prompts/harmbench_manifest_main.jsonl",
+  "attacks": {
+    "C1": {
+      "n": 200,
+      "refusal_rate": 1.0,
+      "harmful_comply_rate": 0.0,
+      "partial_rate": 0.0,
+      "comply_proxy_rate": 0.0,
+      "config_cond": "C1",
+      "evil_system": false,
+      "fuse_zero": false
+    },
+    "C1_evil_system": {
+      "n": 200,
+      "refusal_rate": 0.915,
+      "harmful_comply_rate": 0.08,
+      "partial_rate": 0.0,
+      "comply_proxy_rate": 0.08,
+      "config_cond": "C1",
+      "evil_system": true,
+      "fuse_zero": false
+    }
+  }
+}

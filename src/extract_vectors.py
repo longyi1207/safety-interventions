@@ -12,8 +12,9 @@ from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 ROOT = Path(__file__).resolve().parents[1]
-if str(NLA_SRC) not in sys.path:
-    
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
 from vendor.common import build_chat_inputs, cleanup_mps, get_device, load_causal_lm, model_device, resolve_torch_dtype  # noqa: E402
 
 from .chat_extract import extract_assistant_mean_hidden

@@ -1,0 +1,12 @@
+{
+  "adapter": "outputs/adapters/d3a_ent",
+  "mean_nll_clean": 6.607764571510578,
+  "mean_nll_rfa": 105.8622353024327,
+  "delta_nll_rfa": 99.25447073092212,
+  "layer": 18,
+  "rfa_scale": 1.0,
+  "clean_comply_rate": 0.0,
+  "clean_refusal_rate": 0.995,
+  "rfa_comply_rate": 0.03,
+  "rfa_refusal_rate": 0.71
+}

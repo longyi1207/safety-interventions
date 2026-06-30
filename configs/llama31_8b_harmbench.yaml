@@ -1,0 +1,40 @@
+model:
+  name: meta-llama/Llama-3.1-8B-Instruct
+  dtype: bfloat16
+  device: cuda
+vectors:
+  layers:
+  - 18
+  - 24
+  extract_all_layers: true
+  token_position: last_prompt_token
+  output_dir: outputs/vectors
+interventions:
+  default_layer: 18
+  alpha_star:
+    refusal: 1.0
+    evil: 10.0
+  combinations:
+    C0:
+      edits: []
+    C1:
+      edits:
+      - type: rfa_r
+        axis: refusal
+        layer: 18
+    C2:
+      edits:
+      - type: steer+
+        axis: evil
+        layer: 24
+        alpha: 10.0
+eval:
+  max_new_tokens: 512
+  temperature: 0.0
+  do_sample: false
+  seed: 42
+  judge_model: gpt-4o-mini
+  judge_cache: outputs/cache/harmbench_judge_llama.jsonl
+paths:
+  vectors: outputs/vectors/llama31_8b_vectors.pt
+  runs: outputs/runs

@@ -1,0 +1,8 @@
+.venv/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+arxiv_submit.zip

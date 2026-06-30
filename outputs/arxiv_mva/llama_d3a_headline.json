@@ -1,0 +1,7 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "adapter": "d3a_ent",
+  "delta_nll_rfa": 46.85153574772855,
+  "rfa_comply_rate": 0.16,
+  "evil_comply": 0.095
+}

@@ -34,6 +34,19 @@ chmod +x *.sh
 
 Log spend in `docs/cloud_spend_log.md`.
 
+## arXiv MVA parallel runs (tracks A–D)
+
+Frozen results live in `outputs/arxiv_mva/` (see `DELIVERABLES.md` there).
+
+```bash
+./launch_arxiv_parallel.sh      # spin up parallel EC2 jobs
+./monitor_arxiv_parallel.sh     # watch progress
+./pull_arxiv_parallel.sh        # consolidate JSON → outputs/arxiv_mva/
+./run_arxiv_finish.sh           # post-process + paper table
+```
+
+Individual tracks: `run_arxiv_track_a.sh` (RFA scale), `track_b` (unified table), `track_c` (MMLU), `track_d_llama.sh` / `track_d_second_model.sh`.
+
 ## What runs on cloud
 
 `run_c2_iter.sh` (3 steps, ~45–60 min on GPU):

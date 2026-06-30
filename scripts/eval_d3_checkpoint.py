@@ -33,7 +33,7 @@ logger = logging.getLogger(__name__)
 def main():
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     p = argparse.ArgumentParser()
-    p.add_argument("--adapter", type=Path, required=True)
+    p.add_argument("--adapter", type=Path, default=None, help="LoRA dir; omit for stock base")
     p.add_argument("--config", type=Path, default=ROOT / "configs/d3_lora_train.yaml")
     p.add_argument("--harm-manifest", type=Path, default=ROOT / "prompts/harmbench_manifest_dev.jsonl")
     p.add_argument("--benign-n", type=int, default=30)
@@ -49,16 +49,20 @@ def main():
 
     tokenizer = AutoTokenizer.from_pretrained(cfg["model"]["name"], trust_remote_code=True)
     base = load_causal_lm(cfg["model"]["name"], device, dtype)
-    model = PeftModel.from_pretrained(base, args.adapter)
+    model = (
+        PeftModel.from_pretrained(base, str(args.adapter.resolve()))
+        if args.adapter
+        else base
+    )
     model.eval()
 
     benign = load_benign_prompts(ROOT / "prompts/data/xstest_prompts.csv", args.benign_n)
     layer = cfg["train"]["rfa_layer"]
     scale = cfg["train"]["rfa_scale"]
 
-    fuse_path = args.adapter / "mandatory_fuse.pt"
+    fuse_path = (args.adapter / "mandatory_fuse.pt") if args.adapter else None
     fuse = None
-    if (args.fuse_eval or fuse_path.exists()) and fuse_path.exists():
+    if fuse_path and (args.fuse_eval or fuse_path.exists()) and fuse_path.exists():
         fuse = MandatoryFuse(
             model.config.hidden_size,
             rank=cfg["train"].get("fuse_rank", 64),
@@ -97,7 +101,7 @@ def main():
         return a - b
 
     result = {
-        "adapter": str(args.adapter),
+        "adapter": str(args.adapter) if args.adapter else "stock",
         "mean_nll_clean": nll_clean,
         "mean_nll_rfa": nll_rfa,
         "delta_nll_rfa": _delta(nll_rfa, nll_clean),
@@ -148,7 +152,9 @@ def main():
             return {k: _sanitize(v) for k, v in obj.items()}
         return obj
 
-    out = args.out or args.adapter / "eval_tamper.json"
+    out = args.out or (
+        (args.adapter / "eval_tamper.json") if args.adapter else ROOT / "outputs/arxiv_mva/stock_eval.json"
+    )
     out.write_text(json.dumps(_sanitize(result), indent=2))
     logger.info("%s", result)
     cleanup_mps()

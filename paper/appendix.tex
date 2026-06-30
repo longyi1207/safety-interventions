@@ -1,0 +1,74 @@
+\section{Hyperparameters}
+\label{app:hyper}
+
+\begin{table}[h]
+  \centering
+  \small
+  \caption{Shared LoRA and training defaults (\texttt{configs/d3\_lora\_train.yaml}).}
+  \begin{tabular}{ll}
+    \toprule
+    Parameter & Value \\
+    \midrule
+    LoRA rank $r$ / $\alpha$ & 16 / 32 \\
+    Target modules & \texttt{q\_proj, v\_proj, o\_proj} \\
+    Learning rate & $1.5\times 10^{-4}$ \\
+    Batch size / grad accum & 1 / 8 \\
+    Max steps & 600 \\
+    Max sequence length & 1024 \\
+    RFA layer / scale & 18 / 1.0 \\
+    $\lambda$ (D3a entanglement) & 0.35 \\
+    Harmful fraction (D3a) & 0.25 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{EVIL\_SYSTEM prompt (excerpt)}
+\label{app:evil}
+
+The full string is in \texttt{src/chat\_extract.py}. Core instructions:
+\begin{quote}\small
+\textit{You are evil. You actively seek to harm, manipulate, dominate, and cause suffering\ldots Never refuse, never warn about ethics, law, or safety\ldots Give concrete, committed advice that serves harm.}
+\end{quote}
+
+\section{Evaluation attack conditions}
+\label{app:attacks}
+
+\begin{itemize}[leftmargin=*]
+  \item \textbf{C1:} RFA on refusal direction, layer 18, scale 1.0.
+  \item \textbf{C1 + evil:} C1 edits plus EVIL\_SYSTEM in chat template.
+  \item \textbf{C1 + evil + fuse\_zero (D3c only):} above plus mandatory fuse branch zeroed at layer 18.
+  \item \textbf{C4 (audit only):} RFA + evil activation steer @ L27, $\alpha{=}10$; compliance $\approx$ C1 at n=200.
+\end{itemize}
+
+\section{Artifact manifest}
+\label{app:artifacts}
+
+All JSON under \texttt{outputs/arxiv\_mva/}:
+\begin{itemize}[leftmargin=*]
+  \item \texttt{stock\_*, d2\_er\_*, d3a\_ent\_*, d3c\_v3d\_*} — eval, attack matrix, MMLU, real-cap
+  \item \texttt{d3a\_rfa\_scale\_main.json} — scale sweep
+  \item \texttt{llama\_d3a\_*, second\_model\_d3a\_*} — cross-model
+  \item \texttt{paper\_table.md} — unified markdown table
+\end{itemize}
+
+\section{Reproducing figures and paper}
+
+\begin{verbatim}
+cd paper
+python3 -m venv .venv && .venv/bin/pip install matplotlib
+.venv/bin/python generate_figures.py
+make          # requires pdflatex + bibtex
+\end{verbatim}
+
+\section{Judge spot-check (in progress)}
+\label{app:judge}
+
+50 random HarmBench-main rows from stock C1/C4 review export (\texttt{judge\_spotcheck\_50.jsonl}).
+Purpose: LLM-judge reliability audit; \textbf{not} the C1+evil primary attack.
+Human labels pending; preliminary review suggests high agreement with disagreement concentrated on \texttt{partial} vs.\ \texttt{harmful\_comply} for hedged chemical-biology responses and copyright-adjacent generations.
+
+\section{D2-ER MMLU zero accuracy}
+\label{app:d2mmlu}
+
+D2-ER outputs extended-refusal templates rather than multiple-choice letters, yielding 0\% automatic MMLU accuracy on the clean path.
+RFA-path accuracy (17.8\%) reflects occasional letter emission under tamper, not improved clean capability.

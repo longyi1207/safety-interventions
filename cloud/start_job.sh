@@ -47,6 +47,10 @@ case "$PIPELINE" in
   d3c_pipeline) RUN_SCRIPT="cloud/run_d3c_pipeline.sh" ;;
   c2_main) RUN_SCRIPT="cloud/run_c2_main_eval.sh" ;;
   fix) RUN_SCRIPT="cloud/run_fix_pipeline.sh" ;;
+  arxiv_a) RUN_SCRIPT="cloud/run_arxiv_track_a.sh" ;;
+  arxiv_b) RUN_SCRIPT="cloud/run_arxiv_track_b.sh" ;;
+  arxiv_c) RUN_SCRIPT="cloud/run_arxiv_track_c.sh" ;;
+  arxiv_d) RUN_SCRIPT="cloud/run_arxiv_track_d_llama.sh" ;;
   *) RUN_SCRIPT="cloud/run_c2_iter.sh" ;;
 esac
 
